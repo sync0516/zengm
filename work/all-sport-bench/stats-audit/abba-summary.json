@@ -1,0 +1,38 @@
+{
+  "head": "fe241901f69249e98b2988f196503ba7db41dee5",
+  "upstreamOff": "95f81fe379458a463bb18cef85da9a492093493f",
+  "onSource": "fe241901f69249e98b2988f196503ba7db41dee5",
+  "node": "v24.13.0",
+  "order": [
+    "on",
+    "off",
+    "off",
+    "on"
+  ],
+  "seasons": 5,
+  "warmup": 1,
+  "seed": 12345,
+  "onSeconds": [
+    34.608599999904634,
+    34.68529999995231
+  ],
+  "offSeconds": [
+    35.283799999952315,
+    35.717700000047685
+  ],
+  "onMean": 34.646949999928474,
+  "offMean": 35.50075,
+  "lessTimeWithPlanningPercent": 2.4050196124631817,
+  "pairedImprovementsPercent": [
+    1.913626083496091,
+    2.8904436738479617
+  ],
+  "onRepeatSpreadPercent": 0.2213759076854909,
+  "offRepeatSpreadPercent": 1.2222276996834445,
+  "exactMatch": true,
+  "savedTables": 22,
+  "onlyChangedRuntimeFiles": [
+    "src/common/processPlayerStats.football.ts",
+    "src/worker/db/getCopies/playersPlus.ts"
+  ]
+}

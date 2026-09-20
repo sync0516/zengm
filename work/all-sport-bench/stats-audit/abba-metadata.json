@@ -1,0 +1,15 @@
+{
+  "head": "fe241901f69249e98b2988f196503ba7db41dee5",
+  "upstreamOff": "95f81fe379458a463bb18cef85da9a492093493f",
+  "onSource": "fe241901f69249e98b2988f196503ba7db41dee5",
+  "node": "v24.13.0",
+  "order": [
+    "on",
+    "off",
+    "off",
+    "on"
+  ],
+  "seasons": 5,
+  "warmup": 1,
+  "seed": 12345
+}

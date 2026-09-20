@@ -1,0 +1,20 @@
+{
+  "refs": {
+    "on": "fe241901f69249e98b2988f196503ba7db41dee5",
+    "off": "95f81fe379458a463bb18cef85da9a492093493f"
+  },
+  "files": [
+    "src/common/processPlayerStats.football.ts",
+    "src/worker/db/getCopies/playersPlus.ts"
+  ],
+  "sha256": {
+    "on": {
+      "src/common/processPlayerStats.football.ts": "1237679d3b26c5e67657b71c4e7ecbd6c55d9f149d3107c25067945a8859f3cb",
+      "src/worker/db/getCopies/playersPlus.ts": "9d03257da6d602c6012e22b92433e5a2100fc8b4ce731bb45c60c9861942a6bb"
+    },
+    "off": {
+      "src/common/processPlayerStats.football.ts": "7ecb67dd32da166feaba7e5ce805537b8eec6211539c1babbcb2e352dfdce63c",
+      "src/worker/db/getCopies/playersPlus.ts": "f1692411d59273b1c68938714b21a197299112dea380e8093955028bdd222a97"
+    }
+  }
+}
