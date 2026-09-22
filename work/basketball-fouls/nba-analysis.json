@@ -1,0 +1,3188 @@
+{
+  "coverage": [
+    {
+      "year": 2021,
+      "raw_rows": 482408,
+      "unique_possessions": 241730,
+      "matched_possessions": 241730,
+      "raw_games": 1230,
+      "possession_games": 1230
+    },
+    {
+      "year": 2022,
+      "raw_rows": 486514,
+      "unique_possessions": 244601,
+      "matched_possessions": 244601,
+      "raw_games": 1230,
+      "possession_games": 1230
+    },
+    {
+      "year": 2023,
+      "raw_rows": 478625,
+      "unique_possessions": 242365,
+      "matched_possessions": 242365,
+      "raw_games": 1230,
+      "possession_games": 1228
+    }
+  ],
+  "manifest": [
+    {
+      "file": "nbastats_2021.tar.xz",
+      "bytes": 8575520,
+      "sha256": "549915410733f799f61ff54c18b69185138f61f462b9f82b8c17dd5777de3780",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/main/datasets/nbastats_2021.tar.xz"
+    },
+    {
+      "file": "nbastats_2022.tar.xz",
+      "bytes": 8551312,
+      "sha256": "46fead1357db9d1e56ed8158c820fe8e65e12c444151448c4e225889296629d0",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/main/datasets/nbastats_2022.tar.xz"
+    },
+    {
+      "file": "nbastats_2023.tar.xz",
+      "bytes": 8480776,
+      "sha256": "ec0029c0d45a90b769d173010f60b73c6c8866acf1d4d914a72476373ce3a913",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/main/datasets/nbastats_2023.tar.xz"
+    },
+    {
+      "file": "pbpstats_2021.tar.xz",
+      "bytes": 15615952,
+      "sha256": "e9969cd6b5c00e42ae93307a8aa577322be67f38a8bfd60143747ea509cc4e6c",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/main/datasets/pbpstats_2021.tar.xz"
+    },
+    {
+      "file": "pbpstats_2022.tar.xz",
+      "bytes": 15206248,
+      "sha256": "a4847be1f5adeda20453b14cfcd7e67aaffb85398b00bdacd15ae00b3f91d710",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/main/datasets/pbpstats_2022.tar.xz"
+    },
+    {
+      "file": "pbpstats_2023.tar.xz",
+      "bytes": 15029304,
+      "sha256": "c4eff1692da05ec83094a056aa8d773fe7965f3d0aa7c01d1b3dd5f50a0e3fe8",
+      "url": "https://raw.githubusercontent.com/shufinskiy/nba_data/main/datasets/pbpstats_2023.tar.xz"
+    }
+  ],
+  "reports": {
+    "all/bonus=all/window=ordinary/lead=0:2": {
+      "possessions": 98194,
+      "games": 3688,
+      "personal_foul_possessions": 4955,
+      "personal_foul_pct": 5.046133164959162,
+      "wilson95_pct": [
+        4.910968742840338,
+        5.184814869576658
+      ],
+      "personal_fouls": 5118,
+      "take_fouls": 241,
+      "nonshooting_ft_fouls": 1127
+    },
+    "all/bonus=all/window=ordinary/lead=0:0": {
+      "possessions": 37840,
+      "games": 3688,
+      "personal_foul_possessions": 1784,
+      "personal_foul_pct": 4.7145877378435515,
+      "wilson95_pct": [
+        4.505588243035544,
+        4.932781248501486
+      ],
+      "personal_fouls": 1831,
+      "take_fouls": 72,
+      "nonshooting_ft_fouls": 397
+    },
+    "all/bonus=all/window=ordinary/lead=1:2": {
+      "possessions": 60354,
+      "games": 3599,
+      "personal_foul_possessions": 3171,
+      "personal_foul_pct": 5.254001391788448,
+      "wilson95_pct": [
+        5.078828713749981,
+        5.434869973580152
+      ],
+      "personal_fouls": 3287,
+      "take_fouls": 169,
+      "nonshooting_ft_fouls": 730
+    },
+    "all/bonus=all/window=ordinary/lead=3:3": {
+      "possessions": 28003,
+      "games": 3461,
+      "personal_foul_possessions": 1437,
+      "personal_foul_pct": 5.1315930436024715,
+      "wilson95_pct": [
+        4.879263257664262,
+        5.396231712821807
+      ],
+      "personal_fouls": 1491,
+      "take_fouls": 64,
+      "nonshooting_ft_fouls": 332
+    },
+    "all/bonus=all/window=ordinary/lead=-6:-1": {
+      "possessions": 147108,
+      "games": 3688,
+      "personal_foul_possessions": 7843,
+      "personal_foul_pct": 5.331457160725454,
+      "wilson95_pct": [
+        5.217813409739743,
+        5.447433812615742
+      ],
+      "personal_fouls": 8094,
+      "take_fouls": 438,
+      "nonshooting_ft_fouls": 2053
+    },
+    "all/bonus=all/window=120/lead=0:2": {
+      "possessions": 2996,
+      "games": 798,
+      "personal_foul_possessions": 187,
+      "personal_foul_pct": 6.241655540720961,
+      "wilson95_pct": [
+        5.430191997099778,
+        7.16519303923014
+      ],
+      "personal_fouls": 189,
+      "take_fouls": 26,
+      "nonshooting_ft_fouls": 147
+    },
+    "all/bonus=all/window=120/lead=0:0": {
+      "possessions": 1040,
+      "games": 455,
+      "personal_foul_possessions": 61,
+      "personal_foul_pct": 5.865384615384615,
+      "wilson95_pct": [
+        4.593105257174272,
+        7.462516975164429
+      ],
+      "personal_fouls": 63,
+      "take_fouls": 13,
+      "nonshooting_ft_fouls": 55
+    },
+    "all/bonus=all/window=120/lead=1:2": {
+      "possessions": 1956,
+      "games": 741,
+      "personal_foul_possessions": 126,
+      "personal_foul_pct": 6.441717791411043,
+      "wilson95_pct": [
+        5.436855617223598,
+        7.617342232235255
+      ],
+      "personal_fouls": 126,
+      "take_fouls": 13,
+      "nonshooting_ft_fouls": 92
+    },
+    "all/bonus=all/window=120/lead=3:3": {
+      "possessions": 1221,
+      "games": 701,
+      "personal_foul_possessions": 96,
+      "personal_foul_pct": 7.862407862407863,
+      "wilson95_pct": [
+        6.4814419513573185,
+        9.50769492968918
+      ],
+      "personal_fouls": 100,
+      "take_fouls": 76,
+      "nonshooting_ft_fouls": 149
+    },
+    "all/bonus=all/window=120/lead=-6:-1": {
+      "possessions": 6190,
+      "games": 1671,
+      "personal_foul_possessions": 843,
+      "personal_foul_pct": 13.618739903069466,
+      "wilson95_pct": [
+        12.786817075330518,
+        14.495792153810891
+      ],
+      "personal_fouls": 896,
+      "take_fouls": 1417,
+      "nonshooting_ft_fouls": 2008
+    },
+    "all/bonus=all/window=60/lead=0:2": {
+      "possessions": 1635,
+      "games": 642,
+      "personal_foul_possessions": 95,
+      "personal_foul_pct": 5.81039755351682,
+      "wilson95_pct": [
+        4.776615170117141,
+        7.051349167619955
+      ],
+      "personal_fouls": 96,
+      "take_fouls": 24,
+      "nonshooting_ft_fouls": 78
+    },
+    "all/bonus=all/window=60/lead=0:0": {
+      "possessions": 568,
+      "games": 328,
+      "personal_foul_possessions": 30,
+      "personal_foul_pct": 5.28169014084507,
+      "wilson95_pct": [
+        3.724404044690392,
+        7.439806463953959
+      ],
+      "personal_fouls": 31,
+      "take_fouls": 13,
+      "nonshooting_ft_fouls": 26
+    },
+    "all/bonus=all/window=60/lead=1:2": {
+      "possessions": 1067,
+      "games": 575,
+      "personal_foul_possessions": 65,
+      "personal_foul_pct": 6.091846298031865,
+      "wilson95_pct": [
+        4.808148792198592,
+        7.690581178695332
+      ],
+      "personal_fouls": 65,
+      "take_fouls": 11,
+      "nonshooting_ft_fouls": 52
+    },
+    "all/bonus=all/window=60/lead=3:3": {
+      "possessions": 728,
+      "games": 518,
+      "personal_foul_possessions": 58,
+      "personal_foul_pct": 7.967032967032966,
+      "wilson95_pct": [
+        6.213447333513209,
+        10.161899462842722
+      ],
+      "personal_fouls": 60,
+      "take_fouls": 74,
+      "nonshooting_ft_fouls": 121
+    },
+    "all/bonus=all/window=60/lead=-6:-1": {
+      "possessions": 3566,
+      "games": 1483,
+      "personal_foul_possessions": 638,
+      "personal_foul_pct": 17.89119461581604,
+      "wilson95_pct": [
+        16.66795214400325,
+        19.18354333971794
+      ],
+      "personal_fouls": 686,
+      "take_fouls": 1404,
+      "nonshooting_ft_fouls": 1854
+    },
+    "all/bonus=all/window=30/lead=0:2": {
+      "possessions": 883,
+      "games": 520,
+      "personal_foul_possessions": 54,
+      "personal_foul_pct": 6.115515288788222,
+      "wilson95_pct": [
+        4.717143516751105,
+        7.8940826593777516
+      ],
+      "personal_fouls": 55,
+      "take_fouls": 19,
+      "nonshooting_ft_fouls": 40
+    },
+    "all/bonus=all/window=30/lead=0:0": {
+      "possessions": 302,
+      "games": 242,
+      "personal_foul_possessions": 20,
+      "personal_foul_pct": 6.622516556291391,
+      "wilson95_pct": [
+        4.327589073763499,
+        10.007151523983834
+      ],
+      "personal_fouls": 21,
+      "take_fouls": 10,
+      "nonshooting_ft_fouls": 12
+    },
+    "all/bonus=all/window=30/lead=1:2": {
+      "possessions": 581,
+      "games": 423,
+      "personal_foul_possessions": 34,
+      "personal_foul_pct": 5.851979345955249,
+      "wilson95_pct": [
+        4.217629555872993,
+        8.06631194213262
+      ],
+      "personal_fouls": 34,
+      "take_fouls": 9,
+      "nonshooting_ft_fouls": 28
+    },
+    "all/bonus=all/window=30/lead=3:3": {
+      "possessions": 483,
+      "games": 378,
+      "personal_foul_possessions": 34,
+      "personal_foul_pct": 7.039337474120083,
+      "wilson95_pct": [
+        5.08082400936171,
+        9.675844278639971
+      ],
+      "personal_fouls": 34,
+      "take_fouls": 73,
+      "nonshooting_ft_fouls": 102
+    },
+    "all/bonus=all/window=30/lead=-6:-1": {
+      "possessions": 2088,
+      "games": 1216,
+      "personal_foul_possessions": 441,
+      "personal_foul_pct": 21.120689655172413,
+      "wilson95_pct": [
+        19.423770834129023,
+        22.923680330433342
+      ],
+      "personal_fouls": 476,
+      "take_fouls": 1208,
+      "nonshooting_ft_fouls": 1517
+    },
+    "all/bonus=True/window=ordinary/lead=0:2": {
+      "possessions": 13657,
+      "games": 2250,
+      "personal_foul_possessions": 759,
+      "personal_foul_pct": 5.557589514534671,
+      "wilson95_pct": [
+        5.18569577686399,
+        5.954478778706583
+      ],
+      "personal_fouls": 759,
+      "take_fouls": 14,
+      "nonshooting_ft_fouls": 878
+    },
+    "all/bonus=True/window=ordinary/lead=0:0": {
+      "possessions": 4626,
+      "games": 1563,
+      "personal_foul_possessions": 267,
+      "personal_foul_pct": 5.7717250324254215,
+      "wilson95_pct": [
+        5.1356581142257784,
+        6.481188561479067
+      ],
+      "personal_fouls": 267,
+      "take_fouls": 5,
+      "nonshooting_ft_fouls": 302
+    },
+    "all/bonus=True/window=ordinary/lead=1:2": {
+      "possessions": 9031,
+      "games": 2112,
+      "personal_foul_possessions": 492,
+      "personal_foul_pct": 5.447901672018602,
+      "wilson95_pct": [
+        4.99846174112469,
+        5.935228562864702
+      ],
+      "personal_fouls": 492,
+      "take_fouls": 9,
+      "nonshooting_ft_fouls": 576
+    },
+    "all/bonus=True/window=ordinary/lead=3:3": {
+      "possessions": 4457,
+      "games": 1757,
+      "personal_foul_possessions": 213,
+      "personal_foul_pct": 4.778999326901504,
+      "wilson95_pct": [
+        4.190720916377826,
+        5.445164832176887
+      ],
+      "personal_fouls": 213,
+      "take_fouls": 6,
+      "nonshooting_ft_fouls": 256
+    },
+    "all/bonus=True/window=ordinary/lead=-6:-1": {
+      "possessions": 26659,
+      "games": 2947,
+      "personal_foul_possessions": 1334,
+      "personal_foul_pct": 5.003938632356802,
+      "wilson95_pct": [
+        4.7486366343387045,
+        5.272206755437124
+      ],
+      "personal_fouls": 1336,
+      "take_fouls": 42,
+      "nonshooting_ft_fouls": 1568
+    },
+    "all/bonus=True/window=120/lead=0:2": {
+      "possessions": 1902,
+      "games": 678,
+      "personal_foul_possessions": 93,
+      "personal_foul_pct": 4.889589905362776,
+      "wilson95_pct": [
+        4.008063201493674,
+        5.952974483904735
+      ],
+      "personal_fouls": 93,
+      "take_fouls": 4,
+      "nonshooting_ft_fouls": 110
+    },
+    "all/bonus=True/window=120/lead=0:0": {
+      "possessions": 629,
+      "games": 343,
+      "personal_foul_possessions": 31,
+      "personal_foul_pct": 4.92845786963434,
+      "wilson95_pct": [
+        3.493499297397168,
+        6.910620785732638
+      ],
+      "personal_fouls": 31,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 39
+    },
+    "all/bonus=True/window=120/lead=1:2": {
+      "possessions": 1273,
+      "games": 592,
+      "personal_foul_possessions": 62,
+      "personal_foul_pct": 4.870384917517675,
+      "wilson95_pct": [
+        3.8177172373484205,
+        6.194613187976069
+      ],
+      "personal_fouls": 62,
+      "take_fouls": 3,
+      "nonshooting_ft_fouls": 71
+    },
+    "all/bonus=True/window=120/lead=3:3": {
+      "possessions": 791,
+      "games": 511,
+      "personal_foul_possessions": 54,
+      "personal_foul_pct": 6.826801517067003,
+      "wilson95_pct": [
+        5.269736799443432,
+        8.80119255302126
+      ],
+      "personal_fouls": 54,
+      "take_fouls": 56,
+      "nonshooting_ft_fouls": 123
+    },
+    "all/bonus=True/window=120/lead=-6:-1": {
+      "possessions": 3985,
+      "games": 1362,
+      "personal_foul_possessions": 469,
+      "personal_foul_pct": 11.769134253450439,
+      "wilson95_pct": [
+        10.80524128818944,
+        12.806666489747892
+      ],
+      "personal_fouls": 473,
+      "take_fouls": 906,
+      "nonshooting_ft_fouls": 1415
+    },
+    "all/bonus=True/window=60/lead=0:2": {
+      "possessions": 1188,
+      "games": 572,
+      "personal_foul_possessions": 46,
+      "personal_foul_pct": 3.872053872053872,
+      "wilson95_pct": [
+        2.9153671901519393,
+        5.126104092609124
+      ],
+      "personal_fouls": 46,
+      "take_fouls": 4,
+      "nonshooting_ft_fouls": 56
+    },
+    "all/bonus=True/window=60/lead=0:0": {
+      "possessions": 398,
+      "games": 259,
+      "personal_foul_possessions": 14,
+      "personal_foul_pct": 3.5175879396984926,
+      "wilson95_pct": [
+        2.1067003761610312,
+        5.817217904076754
+      ],
+      "personal_fouls": 14,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 18
+    },
+    "all/bonus=True/window=60/lead=1:2": {
+      "possessions": 790,
+      "games": 482,
+      "personal_foul_possessions": 32,
+      "personal_foul_pct": 4.050632911392405,
+      "wilson95_pct": [
+        2.88366015547714,
+        5.662326852510348
+      ],
+      "personal_fouls": 32,
+      "take_fouls": 3,
+      "nonshooting_ft_fouls": 38
+    },
+    "all/bonus=True/window=60/lead=3:3": {
+      "possessions": 541,
+      "games": 407,
+      "personal_foul_possessions": 36,
+      "personal_foul_pct": 6.654343807763401,
+      "wilson95_pct": [
+        4.845003405034143,
+        9.074932223963348
+      ],
+      "personal_fouls": 36,
+      "take_fouls": 55,
+      "nonshooting_ft_fouls": 101
+    },
+    "all/bonus=True/window=60/lead=-6:-1": {
+      "possessions": 2543,
+      "games": 1225,
+      "personal_foul_possessions": 378,
+      "personal_foul_pct": 14.86433346441211,
+      "wilson95_pct": [
+        13.534711178212161,
+        16.29995148789162
+      ],
+      "personal_fouls": 382,
+      "take_fouls": 900,
+      "nonshooting_ft_fouls": 1302
+    },
+    "all/bonus=True/window=30/lead=0:2": {
+      "possessions": 687,
+      "games": 449,
+      "personal_foul_possessions": 24,
+      "personal_foul_pct": 3.4934497816593884,
+      "wilson95_pct": [
+        2.358634980613349,
+        5.145487527353743
+      ],
+      "personal_fouls": 24,
+      "take_fouls": 4,
+      "nonshooting_ft_fouls": 31
+    },
+    "all/bonus=True/window=30/lead=0:0": {
+      "possessions": 227,
+      "games": 193,
+      "personal_foul_possessions": 5,
+      "personal_foul_pct": 2.2026431718061676,
+      "wilson95_pct": [
+        0.9444068665373201,
+        5.051739408657445
+      ],
+      "personal_fouls": 5,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 7
+    },
+    "all/bonus=True/window=30/lead=1:2": {
+      "possessions": 460,
+      "games": 353,
+      "personal_foul_possessions": 19,
+      "personal_foul_pct": 4.130434782608695,
+      "wilson95_pct": [
+        2.659952294817629,
+        6.360713380706084
+      ],
+      "personal_fouls": 19,
+      "take_fouls": 3,
+      "nonshooting_ft_fouls": 24
+    },
+    "all/bonus=True/window=30/lead=3:3": {
+      "possessions": 385,
+      "games": 311,
+      "personal_foul_possessions": 26,
+      "personal_foul_pct": 6.753246753246753,
+      "wilson95_pct": [
+        4.64991110343954,
+        9.711103767397324
+      ],
+      "personal_fouls": 26,
+      "take_fouls": 55,
+      "nonshooting_ft_fouls": 88
+    },
+    "all/bonus=True/window=30/lead=-6:-1": {
+      "possessions": 1509,
+      "games": 961,
+      "personal_foul_possessions": 262,
+      "personal_foul_pct": 17.362491716368456,
+      "wilson95_pct": [
+        15.53479900197256,
+        19.355939063400573
+      ],
+      "personal_fouls": 266,
+      "take_fouls": 767,
+      "nonshooting_ft_fouls": 1044
+    },
+    "all/bonus=False/window=ordinary/lead=0:2": {
+      "possessions": 83596,
+      "games": 3688,
+      "personal_foul_possessions": 3898,
+      "personal_foul_pct": 4.662902531221589,
+      "wilson95_pct": [
+        4.522044282666918,
+        4.807927462159929
+      ],
+      "personal_fouls": 4055,
+      "take_fouls": 129,
+      "nonshooting_ft_fouls": 103
+    },
+    "all/bonus=False/window=ordinary/lead=0:0": {
+      "possessions": 32846,
+      "games": 3688,
+      "personal_foul_possessions": 1396,
+      "personal_foul_pct": 4.250137002983621,
+      "wilson95_pct": [
+        4.037269198742366,
+        4.473705173809861
+      ],
+      "personal_fouls": 1442,
+      "take_fouls": 38,
+      "nonshooting_ft_fouls": 37
+    },
+    "all/bonus=False/window=ordinary/lead=1:2": {
+      "possessions": 50750,
+      "games": 3594,
+      "personal_foul_possessions": 2502,
+      "personal_foul_pct": 4.930049261083743,
+      "wilson95_pct": [
+        4.745078342330112,
+        5.121842943092349
+      ],
+      "personal_fouls": 2613,
+      "take_fouls": 91,
+      "nonshooting_ft_fouls": 66
+    },
+    "all/bonus=False/window=ordinary/lead=3:3": {
+      "possessions": 23296,
+      "games": 3428,
+      "personal_foul_possessions": 1149,
+      "personal_foul_pct": 4.932177197802198,
+      "wilson95_pct": [
+        4.661463168870047,
+        5.217752490690489
+      ],
+      "personal_fouls": 1198,
+      "take_fouls": 41,
+      "nonshooting_ft_fouls": 39
+    },
+    "all/bonus=False/window=ordinary/lead=-6:-1": {
+      "possessions": 118885,
+      "games": 3688,
+      "personal_foul_possessions": 6017,
+      "personal_foul_pct": 5.061193590444548,
+      "wilson95_pct": [
+        4.938032672035865,
+        5.187258682472547
+      ],
+      "personal_fouls": 6247,
+      "take_fouls": 224,
+      "nonshooting_ft_fouls": 168
+    },
+    "all/bonus=False/window=120/lead=0:2": {
+      "possessions": 1039,
+      "games": 411,
+      "personal_foul_possessions": 76,
+      "personal_foul_pct": 7.314725697786333,
+      "wilson95_pct": [
+        5.88382260427906,
+        9.060115190300671
+      ],
+      "personal_fouls": 78,
+      "take_fouls": 20,
+      "nonshooting_ft_fouls": 9
+    },
+    "all/bonus=False/window=120/lead=0:0": {
+      "possessions": 391,
+      "games": 222,
+      "personal_foul_possessions": 25,
+      "personal_foul_pct": 6.3938618925831205,
+      "wilson95_pct": [
+        4.367996976830531,
+        9.26825614340807
+      ],
+      "personal_fouls": 27,
+      "take_fouls": 11,
+      "nonshooting_ft_fouls": 5
+    },
+    "all/bonus=False/window=120/lead=1:2": {
+      "possessions": 648,
+      "games": 328,
+      "personal_foul_possessions": 51,
+      "personal_foul_pct": 7.87037037037037,
+      "wilson95_pct": [
+        6.036603037397819,
+        10.200715967710174
+      ],
+      "personal_fouls": 51,
+      "take_fouls": 9,
+      "nonshooting_ft_fouls": 4
+    },
+    "all/bonus=False/window=120/lead=3:3": {
+      "possessions": 401,
+      "games": 258,
+      "personal_foul_possessions": 36,
+      "personal_foul_pct": 8.977556109725686,
+      "wilson95_pct": [
+        6.5551217518698985,
+        12.178526173639732
+      ],
+      "personal_fouls": 39,
+      "take_fouls": 13,
+      "nonshooting_ft_fouls": 7
+    },
+    "all/bonus=False/window=120/lead=-6:-1": {
+      "possessions": 1757,
+      "games": 734,
+      "personal_foul_possessions": 203,
+      "personal_foul_pct": 11.553784860557768,
+      "wilson95_pct": [
+        10.142178035851476,
+        13.133146672515247
+      ],
+      "personal_fouls": 234,
+      "take_fouls": 274,
+      "nonshooting_ft_fouls": 183
+    },
+    "all/bonus=False/window=60/lead=0:2": {
+      "possessions": 419,
+      "games": 254,
+      "personal_foul_possessions": 43,
+      "personal_foul_pct": 10.26252983293556,
+      "wilson95_pct": [
+        7.7085567508125425,
+        13.538548548193042
+      ],
+      "personal_fouls": 44,
+      "take_fouls": 18,
+      "nonshooting_ft_fouls": 6
+    },
+    "all/bonus=False/window=60/lead=0:0": {
+      "possessions": 161,
+      "games": 127,
+      "personal_foul_possessions": 16,
+      "personal_foul_pct": 9.937888198757763,
+      "wilson95_pct": [
+        6.209971021279789,
+        15.533084129847108
+      ],
+      "personal_fouls": 17,
+      "take_fouls": 11,
+      "nonshooting_ft_fouls": 3
+    },
+    "all/bonus=False/window=60/lead=1:2": {
+      "possessions": 258,
+      "games": 178,
+      "personal_foul_possessions": 27,
+      "personal_foul_pct": 10.465116279069768,
+      "wilson95_pct": [
+        7.2923519726516135,
+        14.797949950343053
+      ],
+      "personal_fouls": 27,
+      "take_fouls": 7,
+      "nonshooting_ft_fouls": 3
+    },
+    "all/bonus=False/window=60/lead=3:3": {
+      "possessions": 163,
+      "games": 133,
+      "personal_foul_possessions": 18,
+      "personal_foul_pct": 11.042944785276074,
+      "wilson95_pct": [
+        7.100154595696452,
+        16.779741065817223
+      ],
+      "personal_fouls": 20,
+      "take_fouls": 12,
+      "nonshooting_ft_fouls": 5
+    },
+    "all/bonus=False/window=60/lead=-6:-1": {
+      "possessions": 636,
+      "games": 408,
+      "personal_foul_possessions": 119,
+      "personal_foul_pct": 18.71069182389937,
+      "wilson95_pct": [
+        15.87080911351643,
+        21.92629566991747
+      ],
+      "personal_fouls": 147,
+      "take_fouls": 268,
+      "nonshooting_ft_fouls": 178
+    },
+    "all/bonus=False/window=30/lead=0:2": {
+      "possessions": 183,
+      "games": 156,
+      "personal_foul_possessions": 28,
+      "personal_foul_pct": 15.300546448087433,
+      "wilson95_pct": [
+        10.802980904437412,
+        21.225004298001444
+      ],
+      "personal_fouls": 29,
+      "take_fouls": 13,
+      "nonshooting_ft_fouls": 2
+    },
+    "all/bonus=False/window=30/lead=0:0": {
+      "possessions": 71,
+      "games": 67,
+      "personal_foul_possessions": 15,
+      "personal_foul_pct": 21.12676056338028,
+      "wilson95_pct": [
+        13.242435724642304,
+        31.97519724953249
+      ],
+      "personal_fouls": 16,
+      "take_fouls": 8,
+      "nonshooting_ft_fouls": 2
+    },
+    "all/bonus=False/window=30/lead=1:2": {
+      "possessions": 112,
+      "games": 100,
+      "personal_foul_possessions": 13,
+      "personal_foul_pct": 11.607142857142858,
+      "wilson95_pct": [
+        6.909968490657367,
+        18.850725422410132
+      ],
+      "personal_fouls": 13,
+      "take_fouls": 5,
+      "nonshooting_ft_fouls": 0
+    },
+    "all/bonus=False/window=30/lead=3:3": {
+      "possessions": 82,
+      "games": 73,
+      "personal_foul_possessions": 6,
+      "personal_foul_pct": 7.317073170731707,
+      "wilson95_pct": [
+        3.396431451476119,
+        15.058024197067244
+      ],
+      "personal_fouls": 6,
+      "take_fouls": 11,
+      "nonshooting_ft_fouls": 2
+    },
+    "all/bonus=False/window=30/lead=-6:-1": {
+      "possessions": 243,
+      "games": 219,
+      "personal_foul_possessions": 69,
+      "personal_foul_pct": 28.39506172839506,
+      "wilson95_pct": [
+        23.096036075531103,
+        34.36656342147426
+      ],
+      "personal_fouls": 88,
+      "take_fouls": 212,
+      "nonshooting_ft_fouls": 139
+    },
+    "2021/bonus=all/window=ordinary/lead=0:2": {
+      "possessions": 32722,
+      "games": 1230,
+      "personal_foul_possessions": 1707,
+      "personal_foul_pct": 5.216673797445144,
+      "wilson95_pct": [
+        4.980953102667715,
+        5.462908484684098
+      ],
+      "personal_fouls": 1764,
+      "take_fouls": 207,
+      "nonshooting_ft_fouls": 379
+    },
+    "2021/bonus=all/window=ordinary/lead=0:0": {
+      "possessions": 12698,
+      "games": 1230,
+      "personal_foul_possessions": 648,
+      "personal_foul_pct": 5.103165852890219,
+      "wilson95_pct": [
+        4.7337950462253575,
+        5.499694245595129
+      ],
+      "personal_fouls": 665,
+      "take_fouls": 62,
+      "nonshooting_ft_fouls": 144
+    },
+    "2021/bonus=all/window=ordinary/lead=1:2": {
+      "possessions": 20024,
+      "games": 1199,
+      "personal_foul_possessions": 1059,
+      "personal_foul_pct": 5.2886536156612065,
+      "wilson95_pct": [
+        4.987146276826482,
+        5.607313387763635
+      ],
+      "personal_fouls": 1099,
+      "take_fouls": 145,
+      "nonshooting_ft_fouls": 235
+    },
+    "2021/bonus=all/window=ordinary/lead=3:3": {
+      "possessions": 9040,
+      "games": 1154,
+      "personal_foul_possessions": 511,
+      "personal_foul_pct": 5.652654867256637,
+      "wilson95_pct": [
+        5.195159647373019,
+        6.147825395620216
+      ],
+      "personal_fouls": 532,
+      "take_fouls": 55,
+      "nonshooting_ft_fouls": 131
+    },
+    "2021/bonus=all/window=ordinary/lead=-6:-1": {
+      "possessions": 48382,
+      "games": 1230,
+      "personal_foul_possessions": 2786,
+      "personal_foul_pct": 5.758339878467199,
+      "wilson95_pct": [
+        5.554251562556658,
+        5.969453338754803
+      ],
+      "personal_fouls": 2869,
+      "take_fouls": 373,
+      "nonshooting_ft_fouls": 758
+    },
+    "2021/bonus=all/window=120/lead=0:2": {
+      "possessions": 947,
+      "games": 263,
+      "personal_foul_possessions": 62,
+      "personal_foul_pct": 6.546990496304119,
+      "wilson95_pct": [
+        5.1405361958265035,
+        8.304563387532074
+      ],
+      "personal_fouls": 63,
+      "take_fouls": 12,
+      "nonshooting_ft_fouls": 48
+    },
+    "2021/bonus=all/window=120/lead=0:0": {
+      "possessions": 332,
+      "games": 149,
+      "personal_foul_possessions": 22,
+      "personal_foul_pct": 6.626506024096386,
+      "wilson95_pct": [
+        4.416400766161428,
+        9.828886297740128
+      ],
+      "personal_fouls": 23,
+      "take_fouls": 5,
+      "nonshooting_ft_fouls": 21
+    },
+    "2021/bonus=all/window=120/lead=1:2": {
+      "possessions": 615,
+      "games": 242,
+      "personal_foul_possessions": 40,
+      "personal_foul_pct": 6.504065040650407,
+      "wilson95_pct": [
+        4.812482829289448,
+        8.735669072586576
+      ],
+      "personal_fouls": 40,
+      "take_fouls": 7,
+      "nonshooting_ft_fouls": 27
+    },
+    "2021/bonus=all/window=120/lead=3:3": {
+      "possessions": 390,
+      "games": 227,
+      "personal_foul_possessions": 29,
+      "personal_foul_pct": 7.435897435897436,
+      "wilson95_pct": [
+        5.226928852262979,
+        10.475221453849933
+      ],
+      "personal_fouls": 29,
+      "take_fouls": 34,
+      "nonshooting_ft_fouls": 51
+    },
+    "2021/bonus=all/window=120/lead=-6:-1": {
+      "possessions": 2031,
+      "games": 550,
+      "personal_foul_possessions": 236,
+      "personal_foul_pct": 11.619891678975874,
+      "wilson95_pct": [
+        10.29804968811349,
+        13.086650133238695
+      ],
+      "personal_fouls": 251,
+      "take_fouls": 511,
+      "nonshooting_ft_fouls": 656
+    },
+    "2021/bonus=all/window=60/lead=0:2": {
+      "possessions": 491,
+      "games": 199,
+      "personal_foul_possessions": 27,
+      "personal_foul_pct": 5.4989816700611,
+      "wilson95_pct": [
+        3.8064128671286697,
+        7.88249930193715
+      ],
+      "personal_fouls": 27,
+      "take_fouls": 10,
+      "nonshooting_ft_fouls": 23
+    },
+    "2021/bonus=all/window=60/lead=0:0": {
+      "possessions": 173,
+      "games": 98,
+      "personal_foul_possessions": 9,
+      "personal_foul_pct": 5.202312138728324,
+      "wilson95_pct": [
+        2.7607516565911747,
+        9.590188393713731
+      ],
+      "personal_fouls": 9,
+      "take_fouls": 5,
+      "nonshooting_ft_fouls": 9
+    },
+    "2021/bonus=all/window=60/lead=1:2": {
+      "possessions": 318,
+      "games": 176,
+      "personal_foul_possessions": 18,
+      "personal_foul_pct": 5.660377358490567,
+      "wilson95_pct": [
+        3.610080437006574,
+        8.769176936807128
+      ],
+      "personal_fouls": 18,
+      "take_fouls": 5,
+      "nonshooting_ft_fouls": 14
+    },
+    "2021/bonus=all/window=60/lead=3:3": {
+      "possessions": 242,
+      "games": 170,
+      "personal_foul_possessions": 11,
+      "personal_foul_pct": 4.545454545454546,
+      "wilson95_pct": [
+        2.5567561958883744,
+        7.954727621333771
+      ],
+      "personal_fouls": 11,
+      "take_fouls": 32,
+      "nonshooting_ft_fouls": 39
+    },
+    "2021/bonus=all/window=60/lead=-6:-1": {
+      "possessions": 1172,
+      "games": 493,
+      "personal_foul_possessions": 171,
+      "personal_foul_pct": 14.590443686006827,
+      "wilson95_pct": [
+        12.685058491494111,
+        16.727202479711533
+      ],
+      "personal_fouls": 184,
+      "take_fouls": 503,
+      "nonshooting_ft_fouls": 610
+    },
+    "2021/bonus=all/window=30/lead=0:2": {
+      "possessions": 254,
+      "games": 159,
+      "personal_foul_possessions": 11,
+      "personal_foul_pct": 4.330708661417323,
+      "wilson95_pct": [
+        2.4351135076300268,
+        7.587163735452545
+      ],
+      "personal_fouls": 11,
+      "take_fouls": 7,
+      "nonshooting_ft_fouls": 7
+    },
+    "2021/bonus=all/window=30/lead=0:0": {
+      "possessions": 85,
+      "games": 67,
+      "personal_foul_possessions": 3,
+      "personal_foul_pct": 3.5294117647058822,
+      "wilson95_pct": [
+        1.2074823021218324,
+        9.870211030731246
+      ],
+      "personal_fouls": 3,
+      "take_fouls": 3,
+      "nonshooting_ft_fouls": 2
+    },
+    "2021/bonus=all/window=30/lead=1:2": {
+      "possessions": 169,
+      "games": 129,
+      "personal_foul_possessions": 8,
+      "personal_foul_pct": 4.733727810650888,
+      "wilson95_pct": [
+        2.4178611011922286,
+        9.061782688265865
+      ],
+      "personal_fouls": 8,
+      "take_fouls": 4,
+      "nonshooting_ft_fouls": 5
+    },
+    "2021/bonus=all/window=30/lead=3:3": {
+      "possessions": 162,
+      "games": 127,
+      "personal_foul_possessions": 8,
+      "personal_foul_pct": 4.938271604938271,
+      "wilson95_pct": [
+        2.5232188799837045,
+        9.440968633884951
+      ],
+      "personal_fouls": 8,
+      "take_fouls": 31,
+      "nonshooting_ft_fouls": 38
+    },
+    "2021/bonus=all/window=30/lead=-6:-1": {
+      "possessions": 699,
+      "games": 398,
+      "personal_foul_possessions": 118,
+      "personal_foul_pct": 16.88125894134478,
+      "wilson95_pct": [
+        14.287010931430066,
+        19.837548571023973
+      ],
+      "personal_fouls": 127,
+      "take_fouls": 433,
+      "nonshooting_ft_fouls": 506
+    },
+    "2021/bonus=True/window=ordinary/lead=0:2": {
+      "possessions": 4640,
+      "games": 750,
+      "personal_foul_possessions": 252,
+      "personal_foul_pct": 5.43103448275862,
+      "wilson95_pct": [
+        4.815034150869915,
+        6.120773823286654
+      ],
+      "personal_fouls": 252,
+      "take_fouls": 13,
+      "nonshooting_ft_fouls": 297
+    },
+    "2021/bonus=True/window=ordinary/lead=0:0": {
+      "possessions": 1591,
+      "games": 524,
+      "personal_foul_possessions": 101,
+      "personal_foul_pct": 6.34820867379007,
+      "wilson95_pct": [
+        5.252057136393975,
+        7.654654100634203
+      ],
+      "personal_fouls": 101,
+      "take_fouls": 4,
+      "nonshooting_ft_fouls": 111
+    },
+    "2021/bonus=True/window=ordinary/lead=1:2": {
+      "possessions": 3049,
+      "games": 701,
+      "personal_foul_possessions": 151,
+      "personal_foul_pct": 4.952443424073467,
+      "wilson95_pct": [
+        4.237411216969702,
+        5.780848492279544
+      ],
+      "personal_fouls": 151,
+      "take_fouls": 9,
+      "nonshooting_ft_fouls": 186
+    },
+    "2021/bonus=True/window=ordinary/lead=3:3": {
+      "possessions": 1519,
+      "games": 577,
+      "personal_foul_possessions": 84,
+      "personal_foul_pct": 5.529953917050691,
+      "wilson95_pct": [
+        4.488682286552739,
+        6.795590483510808
+      ],
+      "personal_fouls": 84,
+      "take_fouls": 5,
+      "nonshooting_ft_fouls": 96
+    },
+    "2021/bonus=True/window=ordinary/lead=-6:-1": {
+      "possessions": 9095,
+      "games": 998,
+      "personal_foul_possessions": 513,
+      "personal_foul_pct": 5.640461792193513,
+      "wilson95_pct": [
+        5.184782781330418,
+        6.133598670655732
+      ],
+      "personal_fouls": 513,
+      "take_fouls": 24,
+      "nonshooting_ft_fouls": 593
+    },
+    "2021/bonus=True/window=120/lead=0:2": {
+      "possessions": 587,
+      "games": 223,
+      "personal_foul_possessions": 30,
+      "personal_foul_pct": 5.110732538330494,
+      "wilson95_pct": [
+        3.603067606902874,
+        7.202129589773866
+      ],
+      "personal_fouls": 30,
+      "take_fouls": 2,
+      "nonshooting_ft_fouls": 35
+    },
+    "2021/bonus=True/window=120/lead=0:0": {
+      "possessions": 191,
+      "games": 111,
+      "personal_foul_possessions": 12,
+      "personal_foul_pct": 6.282722513089005,
+      "wilson95_pct": [
+        3.6301274070075564,
+        10.659223532422214
+      ],
+      "personal_fouls": 12,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 15
+    },
+    "2021/bonus=True/window=120/lead=1:2": {
+      "possessions": 396,
+      "games": 193,
+      "personal_foul_possessions": 18,
+      "personal_foul_pct": 4.545454545454546,
+      "wilson95_pct": [
+        2.8942556659069347,
+        7.070090215061928
+      ],
+      "personal_fouls": 18,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 20
+    },
+    "2021/bonus=True/window=120/lead=3:3": {
+      "possessions": 259,
+      "games": 167,
+      "personal_foul_possessions": 14,
+      "personal_foul_pct": 5.405405405405405,
+      "wilson95_pct": [
+        3.2468249537384994,
+        8.86754354805117
+      ],
+      "personal_fouls": 14,
+      "take_fouls": 23,
+      "nonshooting_ft_fouls": 41
+    },
+    "2021/bonus=True/window=120/lead=-6:-1": {
+      "possessions": 1337,
+      "games": 454,
+      "personal_foul_possessions": 123,
+      "personal_foul_pct": 9.199700822737473,
+      "wilson95_pct": [
+        7.765159512785817,
+        10.868033252116467
+      ],
+      "personal_fouls": 124,
+      "take_fouls": 340,
+      "nonshooting_ft_fouls": 470
+    },
+    "2021/bonus=True/window=60/lead=0:2": {
+      "possessions": 368,
+      "games": 181,
+      "personal_foul_possessions": 11,
+      "personal_foul_pct": 2.989130434782609,
+      "wilson95_pct": [
+        1.6771107535870216,
+        5.272515108608062
+      ],
+      "personal_fouls": 11,
+      "take_fouls": 2,
+      "nonshooting_ft_fouls": 15
+    },
+    "2021/bonus=True/window=60/lead=0:0": {
+      "possessions": 122,
+      "games": 81,
+      "personal_foul_possessions": 5,
+      "personal_foul_pct": 4.098360655737705,
+      "wilson95_pct": [
+        1.7630459445038327,
+        9.236178477308984
+      ],
+      "personal_fouls": 5,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 7
+    },
+    "2021/bonus=True/window=60/lead=1:2": {
+      "possessions": 246,
+      "games": 153,
+      "personal_foul_possessions": 6,
+      "personal_foul_pct": 2.4390243902439024,
+      "wilson95_pct": [
+        1.1224970796032772,
+        5.2181603609510585
+      ],
+      "personal_fouls": 6,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 8
+    },
+    "2021/bonus=True/window=60/lead=3:3": {
+      "possessions": 181,
+      "games": 135,
+      "personal_foul_possessions": 6,
+      "personal_foul_pct": 3.314917127071823,
+      "wilson95_pct": [
+        1.5279205399379954,
+        7.042444572677346
+      ],
+      "personal_fouls": 6,
+      "take_fouls": 22,
+      "nonshooting_ft_fouls": 30
+    },
+    "2021/bonus=True/window=60/lead=-6:-1": {
+      "possessions": 844,
+      "games": 410,
+      "personal_foul_possessions": 95,
+      "personal_foul_pct": 11.255924170616113,
+      "wilson95_pct": [
+        9.296796150746317,
+        13.56615372102218
+      ],
+      "personal_fouls": 96,
+      "take_fouls": 336,
+      "nonshooting_ft_fouls": 437
+    },
+    "2021/bonus=True/window=30/lead=0:2": {
+      "possessions": 207,
+      "games": 138,
+      "personal_foul_possessions": 3,
+      "personal_foul_pct": 1.4492753623188406,
+      "wilson95_pct": [
+        0.4940779929017602,
+        4.1736915554226695
+      ],
+      "personal_fouls": 3,
+      "take_fouls": 2,
+      "nonshooting_ft_fouls": 5
+    },
+    "2021/bonus=True/window=30/lead=0:0": {
+      "possessions": 68,
+      "games": 57,
+      "personal_foul_possessions": 0,
+      "personal_foul_pct": 0.0,
+      "wilson95_pct": [
+        0.0,
+        5.347319658804926
+      ],
+      "personal_fouls": 0,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 1
+    },
+    "2021/bonus=True/window=30/lead=1:2": {
+      "possessions": 139,
+      "games": 111,
+      "personal_foul_possessions": 3,
+      "personal_foul_pct": 2.158273381294964,
+      "wilson95_pct": [
+        0.7366681010400867,
+        6.153201516774331
+      ],
+      "personal_fouls": 3,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 4
+    },
+    "2021/bonus=True/window=30/lead=3:3": {
+      "possessions": 130,
+      "games": 108,
+      "personal_foul_possessions": 6,
+      "personal_foul_pct": 4.615384615384616,
+      "wilson95_pct": [
+        2.1321662363237155,
+        9.70391462343887
+      ],
+      "personal_fouls": 6,
+      "take_fouls": 22,
+      "nonshooting_ft_fouls": 30
+    },
+    "2021/bonus=True/window=30/lead=-6:-1": {
+      "possessions": 512,
+      "games": 314,
+      "personal_foul_possessions": 71,
+      "personal_foul_pct": 13.8671875,
+      "wilson95_pct": [
+        11.141690777865474,
+        17.130864208006162
+      ],
+      "personal_fouls": 72,
+      "take_fouls": 280,
+      "nonshooting_ft_fouls": 355
+    },
+    "2021/bonus=False/window=ordinary/lead=0:2": {
+      "possessions": 27695,
+      "games": 1230,
+      "personal_foul_possessions": 1340,
+      "personal_foul_pct": 4.838418487091533,
+      "wilson95_pct": [
+        4.5919029183671425,
+        5.0974611307055815
+      ],
+      "personal_fouls": 1395,
+      "take_fouls": 99,
+      "nonshooting_ft_fouls": 34
+    },
+    "2021/bonus=False/window=ordinary/lead=0:0": {
+      "possessions": 10951,
+      "games": 1230,
+      "personal_foul_possessions": 496,
+      "personal_foul_pct": 4.529266733631632,
+      "wilson95_pct": [
+        4.1554803795496404,
+        4.934944077158157
+      ],
+      "personal_fouls": 513,
+      "take_fouls": 29,
+      "nonshooting_ft_fouls": 15
+    },
+    "2021/bonus=False/window=ordinary/lead=1:2": {
+      "possessions": 16744,
+      "games": 1198,
+      "personal_foul_possessions": 844,
+      "personal_foul_pct": 5.040611562350692,
+      "wilson95_pct": [
+        4.719413662528901,
+        5.3824349243361675
+      ],
+      "personal_fouls": 882,
+      "take_fouls": 70,
+      "nonshooting_ft_fouls": 19
+    },
+    "2021/bonus=False/window=ordinary/lead=3:3": {
+      "possessions": 7432,
+      "games": 1138,
+      "personal_foul_possessions": 399,
+      "personal_foul_pct": 5.368675995694295,
+      "wilson95_pct": [
+        4.878894493745023,
+        5.904573513427156
+      ],
+      "personal_fouls": 420,
+      "take_fouls": 33,
+      "nonshooting_ft_fouls": 20
+    },
+    "2021/bonus=False/window=ordinary/lead=-6:-1": {
+      "possessions": 38643,
+      "games": 1230,
+      "personal_foul_possessions": 2069,
+      "personal_foul_pct": 5.354139171389384,
+      "wilson95_pct": [
+        5.134096086618764,
+        5.583058093452707
+      ],
+      "personal_fouls": 2146,
+      "take_fouls": 181,
+      "nonshooting_ft_fouls": 49
+    },
+    "2021/bonus=False/window=120/lead=0:2": {
+      "possessions": 344,
+      "games": 137,
+      "personal_foul_possessions": 25,
+      "personal_foul_pct": 7.267441860465117,
+      "wilson95_pct": [
+        4.9706904310228675,
+        10.508079215850884
+      ],
+      "personal_fouls": 26,
+      "take_fouls": 9,
+      "nonshooting_ft_fouls": 5
+    },
+    "2021/bonus=False/window=120/lead=0:0": {
+      "possessions": 135,
+      "games": 79,
+      "personal_foul_possessions": 7,
+      "personal_foul_pct": 5.185185185185185,
+      "wilson95_pct": [
+        2.5340849260581777,
+        10.316242353373925
+      ],
+      "personal_fouls": 8,
+      "take_fouls": 4,
+      "nonshooting_ft_fouls": 2
+    },
+    "2021/bonus=False/window=120/lead=1:2": {
+      "possessions": 209,
+      "games": 107,
+      "personal_foul_possessions": 18,
+      "personal_foul_pct": 8.61244019138756,
+      "wilson95_pct": [
+        5.517062919799102,
+        13.201834137918942
+      ],
+      "personal_fouls": 18,
+      "take_fouls": 5,
+      "nonshooting_ft_fouls": 3
+    },
+    "2021/bonus=False/window=120/lead=3:3": {
+      "possessions": 119,
+      "games": 78,
+      "personal_foul_possessions": 14,
+      "personal_foul_pct": 11.76470588235294,
+      "wilson95_pct": [
+        7.1386724889350965,
+        18.782188196695834
+      ],
+      "personal_fouls": 14,
+      "take_fouls": 8,
+      "nonshooting_ft_fouls": 2
+    },
+    "2021/bonus=False/window=120/lead=-6:-1": {
+      "possessions": 539,
+      "games": 234,
+      "personal_foul_possessions": 55,
+      "personal_foul_pct": 10.204081632653061,
+      "wilson95_pct": [
+        7.923736677110077,
+        13.047684820431748
+      ],
+      "personal_fouls": 62,
+      "take_fouls": 78,
+      "nonshooting_ft_fouls": 45
+    },
+    "2021/bonus=False/window=60/lead=0:2": {
+      "possessions": 116,
+      "games": 75,
+      "personal_foul_possessions": 13,
+      "personal_foul_pct": 11.206896551724139,
+      "wilson95_pct": [
+        6.667286239577594,
+        18.233582907696803
+      ],
+      "personal_fouls": 13,
+      "take_fouls": 7,
+      "nonshooting_ft_fouls": 4
+    },
+    "2021/bonus=False/window=60/lead=0:0": {
+      "possessions": 50,
+      "games": 39,
+      "personal_foul_possessions": 4,
+      "personal_foul_pct": 8.0,
+      "wilson95_pct": [
+        3.1549003255790686,
+        18.838502545063704
+      ],
+      "personal_fouls": 4,
+      "take_fouls": 4,
+      "nonshooting_ft_fouls": 1
+    },
+    "2021/bonus=False/window=60/lead=1:2": {
+      "possessions": 66,
+      "games": 46,
+      "personal_foul_possessions": 9,
+      "personal_foul_pct": 13.636363636363635,
+      "wilson95_pct": [
+        7.343237343346893,
+        23.929814820406513
+      ],
+      "personal_fouls": 9,
+      "take_fouls": 3,
+      "nonshooting_ft_fouls": 3
+    },
+    "2021/bonus=False/window=60/lead=3:3": {
+      "possessions": 51,
+      "games": 39,
+      "personal_foul_possessions": 4,
+      "personal_foul_pct": 7.8431372549019605,
+      "wilson95_pct": [
+        3.0921696126931506,
+        18.50019822486082
+      ],
+      "personal_fouls": 4,
+      "take_fouls": 7,
+      "nonshooting_ft_fouls": 2
+    },
+    "2021/bonus=False/window=60/lead=-6:-1": {
+      "possessions": 192,
+      "games": 129,
+      "personal_foul_possessions": 29,
+      "personal_foul_pct": 15.104166666666666,
+      "wilson95_pct": [
+        10.726901060080419,
+        20.850455334066687
+      ],
+      "personal_fouls": 34,
+      "take_fouls": 75,
+      "nonshooting_ft_fouls": 42
+    },
+    "2021/bonus=False/window=30/lead=0:2": {
+      "possessions": 44,
+      "games": 41,
+      "personal_foul_possessions": 7,
+      "personal_foul_pct": 15.909090909090908,
+      "wilson95_pct": [
+        7.926576557718398,
+        29.366490563782556
+      ],
+      "personal_fouls": 7,
+      "take_fouls": 4,
+      "nonshooting_ft_fouls": 0
+    },
+    "2021/bonus=False/window=30/lead=0:0": {
+      "possessions": 16,
+      "games": 16,
+      "personal_foul_possessions": 3,
+      "personal_foul_pct": 18.75,
+      "wilson95_pct": [
+        6.591478773586765,
+        43.00935986845823
+      ],
+      "personal_fouls": 3,
+      "take_fouls": 2,
+      "nonshooting_ft_fouls": 0
+    },
+    "2021/bonus=False/window=30/lead=1:2": {
+      "possessions": 28,
+      "games": 26,
+      "personal_foul_possessions": 4,
+      "personal_foul_pct": 14.285714285714285,
+      "wilson95_pct": [
+        5.698912930701786,
+        31.490173044877334
+      ],
+      "personal_fouls": 4,
+      "take_fouls": 2,
+      "nonshooting_ft_fouls": 0
+    },
+    "2021/bonus=False/window=30/lead=3:3": {
+      "possessions": 25,
+      "games": 20,
+      "personal_foul_possessions": 2,
+      "personal_foul_pct": 8.0,
+      "wilson95_pct": [
+        2.2219933691091933,
+        24.966512122957816
+      ],
+      "personal_fouls": 2,
+      "take_fouls": 6,
+      "nonshooting_ft_fouls": 2
+    },
+    "2021/bonus=False/window=30/lead=-6:-1": {
+      "possessions": 70,
+      "games": 63,
+      "personal_foul_possessions": 13,
+      "personal_foul_pct": 18.571428571428573,
+      "wilson95_pct": [
+        11.187194691822095,
+        29.225797442692862
+      ],
+      "personal_fouls": 16,
+      "take_fouls": 63,
+      "nonshooting_ft_fouls": 34
+    },
+    "2022/bonus=all/window=ordinary/lead=0:2": {
+      "possessions": 33539,
+      "games": 1230,
+      "personal_foul_possessions": 1630,
+      "personal_foul_pct": 4.860013715376129,
+      "wilson95_pct": [
+        4.635004354295108,
+        5.095362675789785
+      ],
+      "personal_fouls": 1689,
+      "take_fouls": 16,
+      "nonshooting_ft_fouls": 410
+    },
+    "2022/bonus=all/window=ordinary/lead=0:0": {
+      "possessions": 12901,
+      "games": 1230,
+      "personal_foul_possessions": 553,
+      "personal_foul_pct": 4.286489419424851,
+      "wilson95_pct": [
+        3.950356975910114,
+        4.649838473214964
+      ],
+      "personal_fouls": 571,
+      "take_fouls": 6,
+      "nonshooting_ft_fouls": 141
+    },
+    "2022/bonus=all/window=ordinary/lead=1:2": {
+      "possessions": 20638,
+      "games": 1211,
+      "personal_foul_possessions": 1077,
+      "personal_foul_pct": 5.21852892722163,
+      "wilson95_pct": [
+        4.923347218844666,
+        5.530378964191252
+      ],
+      "personal_fouls": 1118,
+      "take_fouls": 10,
+      "nonshooting_ft_fouls": 269
+    },
+    "2022/bonus=all/window=ordinary/lead=3:3": {
+      "possessions": 9789,
+      "games": 1158,
+      "personal_foul_possessions": 472,
+      "personal_foul_pct": 4.8217386862805185,
+      "wilson95_pct": [
+        4.414792126644931,
+        5.264130894023555
+      ],
+      "personal_fouls": 487,
+      "take_fouls": 4,
+      "nonshooting_ft_fouls": 109
+    },
+    "2022/bonus=all/window=ordinary/lead=-6:-1": {
+      "possessions": 50974,
+      "games": 1230,
+      "personal_foul_possessions": 2597,
+      "personal_foul_pct": 5.094754188409778,
+      "wilson95_pct": [
+        4.907223054933225,
+        5.289053281725172
+      ],
+      "personal_fouls": 2678,
+      "take_fouls": 31,
+      "nonshooting_ft_fouls": 719
+    },
+    "2022/bonus=all/window=120/lead=0:2": {
+      "possessions": 1118,
+      "games": 282,
+      "personal_foul_possessions": 67,
+      "personal_foul_pct": 5.992844364937388,
+      "wilson95_pct": [
+        4.74643792306951,
+        7.5406443174179145
+      ],
+      "personal_fouls": 68,
+      "take_fouls": 9,
+      "nonshooting_ft_fouls": 61
+    },
+    "2022/bonus=all/window=120/lead=0:0": {
+      "possessions": 386,
+      "games": 171,
+      "personal_foul_possessions": 20,
+      "personal_foul_pct": 5.181347150259067,
+      "wilson95_pct": [
+        3.378822308157683,
+        7.867181196855635
+      ],
+      "personal_fouls": 21,
+      "take_fouls": 5,
+      "nonshooting_ft_fouls": 19
+    },
+    "2022/bonus=all/window=120/lead=1:2": {
+      "possessions": 732,
+      "games": 262,
+      "personal_foul_possessions": 47,
+      "personal_foul_pct": 6.420765027322404,
+      "wilson95_pct": [
+        4.862609372710171,
+        8.433947929839727
+      ],
+      "personal_fouls": 47,
+      "take_fouls": 4,
+      "nonshooting_ft_fouls": 42
+    },
+    "2022/bonus=all/window=120/lead=3:3": {
+      "possessions": 452,
+      "games": 252,
+      "personal_foul_possessions": 30,
+      "personal_foul_pct": 6.637168141592921,
+      "wilson95_pct": [
+        4.688355444476416,
+        9.316860402431812
+      ],
+      "personal_fouls": 33,
+      "take_fouls": 24,
+      "nonshooting_ft_fouls": 55
+    },
+    "2022/bonus=all/window=120/lead=-6:-1": {
+      "possessions": 2211,
+      "games": 588,
+      "personal_foul_possessions": 300,
+      "personal_foul_pct": 13.568521031207597,
+      "wilson95_pct": [
+        12.204090134131208,
+        15.059331322283553
+      ],
+      "personal_fouls": 323,
+      "take_fouls": 481,
+      "nonshooting_ft_fouls": 690
+    },
+    "2022/bonus=all/window=60/lead=0:2": {
+      "possessions": 634,
+      "games": 240,
+      "personal_foul_possessions": 38,
+      "personal_foul_pct": 5.993690851735016,
+      "wilson95_pct": [
+        4.397612238174451,
+        8.119852913048044
+      ],
+      "personal_fouls": 39,
+      "take_fouls": 9,
+      "nonshooting_ft_fouls": 35
+    },
+    "2022/bonus=all/window=60/lead=0:0": {
+      "possessions": 221,
+      "games": 137,
+      "personal_foul_possessions": 8,
+      "personal_foul_pct": 3.619909502262444,
+      "wilson95_pct": [
+        1.84544943883985,
+        6.979252039890067
+      ],
+      "personal_fouls": 9,
+      "take_fouls": 5,
+      "nonshooting_ft_fouls": 8
+    },
+    "2022/bonus=all/window=60/lead=1:2": {
+      "possessions": 413,
+      "games": 215,
+      "personal_foul_possessions": 30,
+      "personal_foul_pct": 7.263922518159806,
+      "wilson95_pct": [
+        5.135227783854908,
+        10.180326133988222
+      ],
+      "personal_fouls": 30,
+      "take_fouls": 4,
+      "nonshooting_ft_fouls": 27
+    },
+    "2022/bonus=all/window=60/lead=3:3": {
+      "possessions": 274,
+      "games": 188,
+      "personal_foul_possessions": 23,
+      "personal_foul_pct": 8.394160583941606,
+      "wilson95_pct": [
+        5.658394132369152,
+        12.280460236451068
+      ],
+      "personal_fouls": 25,
+      "take_fouls": 24,
+      "nonshooting_ft_fouls": 47
+    },
+    "2022/bonus=all/window=60/lead=-6:-1": {
+      "possessions": 1274,
+      "games": 528,
+      "personal_foul_possessions": 235,
+      "personal_foul_pct": 18.445839874411302,
+      "wilson95_pct": [
+        16.411967341610733,
+        20.669436175069265
+      ],
+      "personal_fouls": 256,
+      "take_fouls": 478,
+      "nonshooting_ft_fouls": 634
+    },
+    "2022/bonus=all/window=30/lead=0:2": {
+      "possessions": 347,
+      "games": 191,
+      "personal_foul_possessions": 24,
+      "personal_foul_pct": 6.9164265129683,
+      "wilson95_pct": [
+        4.691511119060024,
+        10.084843794382397
+      ],
+      "personal_fouls": 25,
+      "take_fouls": 7,
+      "nonshooting_ft_fouls": 23
+    },
+    "2022/bonus=all/window=30/lead=0:0": {
+      "possessions": 125,
+      "games": 103,
+      "personal_foul_possessions": 8,
+      "personal_foul_pct": 6.4,
+      "wilson95_pct": [
+        3.2783186697971347,
+        12.121676362863127
+      ],
+      "personal_fouls": 9,
+      "take_fouls": 4,
+      "nonshooting_ft_fouls": 6
+    },
+    "2022/bonus=all/window=30/lead=1:2": {
+      "possessions": 222,
+      "games": 153,
+      "personal_foul_possessions": 16,
+      "personal_foul_pct": 7.207207207207207,
+      "wilson95_pct": [
+        4.484633307175471,
+        11.385604948309787
+      ],
+      "personal_fouls": 16,
+      "take_fouls": 3,
+      "nonshooting_ft_fouls": 17
+    },
+    "2022/bonus=all/window=30/lead=3:3": {
+      "possessions": 175,
+      "games": 139,
+      "personal_foul_possessions": 11,
+      "personal_foul_pct": 6.2857142857142865,
+      "wilson95_pct": [
+        3.545718343843059,
+        10.90371623960956
+      ],
+      "personal_fouls": 11,
+      "take_fouls": 24,
+      "nonshooting_ft_fouls": 34
+    },
+    "2022/bonus=all/window=30/lead=-6:-1": {
+      "possessions": 734,
+      "games": 437,
+      "personal_foul_possessions": 160,
+      "personal_foul_pct": 21.798365122615802,
+      "wilson95_pct": [
+        18.962417954786005,
+        24.92797803264544
+      ],
+      "personal_fouls": 175,
+      "take_fouls": 403,
+      "nonshooting_ft_fouls": 511
+    },
+    "2022/bonus=True/window=ordinary/lead=0:2": {
+      "possessions": 4872,
+      "games": 777,
+      "personal_foul_possessions": 279,
+      "personal_foul_pct": 5.726600985221674,
+      "wilson95_pct": [
+        5.108360857525255,
+        6.414605762227119
+      ],
+      "personal_fouls": 279,
+      "take_fouls": 0,
+      "nonshooting_ft_fouls": 321
+    },
+    "2022/bonus=True/window=ordinary/lead=0:0": {
+      "possessions": 1680,
+      "games": 552,
+      "personal_foul_possessions": 89,
+      "personal_foul_pct": 5.2976190476190474,
+      "wilson95_pct": [
+        4.324896950398902,
+        6.474313616675816
+      ],
+      "personal_fouls": 89,
+      "take_fouls": 0,
+      "nonshooting_ft_fouls": 102
+    },
+    "2022/bonus=True/window=ordinary/lead=1:2": {
+      "possessions": 3192,
+      "games": 730,
+      "personal_foul_possessions": 190,
+      "personal_foul_pct": 5.952380952380952,
+      "wilson95_pct": [
+        5.183303035780861,
+        6.8273548140950515
+      ],
+      "personal_fouls": 190,
+      "take_fouls": 0,
+      "nonshooting_ft_fouls": 219
+    },
+    "2022/bonus=True/window=ordinary/lead=3:3": {
+      "possessions": 1613,
+      "games": 626,
+      "personal_foul_possessions": 68,
+      "personal_foul_pct": 4.215747055176689,
+      "wilson95_pct": [
+        3.3390028250497887,
+        5.310057169448126
+      ],
+      "personal_fouls": 68,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 88
+    },
+    "2022/bonus=True/window=ordinary/lead=-6:-1": {
+      "possessions": 9594,
+      "games": 1002,
+      "personal_foul_possessions": 441,
+      "personal_foul_pct": 4.596622889305816,
+      "wilson95_pct": [
+        4.1954438337688575,
+        5.034147952784485
+      ],
+      "personal_fouls": 441,
+      "take_fouls": 10,
+      "nonshooting_ft_fouls": 535
+    },
+    "2022/bonus=True/window=120/lead=0:2": {
+      "possessions": 741,
+      "games": 245,
+      "personal_foul_possessions": 41,
+      "personal_foul_pct": 5.53306342780027,
+      "wilson95_pct": [
+        4.104565743874519,
+        7.4202470485366465
+      ],
+      "personal_fouls": 41,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 48
+    },
+    "2022/bonus=True/window=120/lead=0:0": {
+      "possessions": 242,
+      "games": 124,
+      "personal_foul_possessions": 11,
+      "personal_foul_pct": 4.545454545454546,
+      "wilson95_pct": [
+        2.5567561958883744,
+        7.954727621333771
+      ],
+      "personal_fouls": 11,
+      "take_fouls": 0,
+      "nonshooting_ft_fouls": 13
+    },
+    "2022/bonus=True/window=120/lead=1:2": {
+      "possessions": 499,
+      "games": 218,
+      "personal_foul_possessions": 30,
+      "personal_foul_pct": 6.012024048096192,
+      "wilson95_pct": [
+        4.24336054654812,
+        8.452804607647554
+      ],
+      "personal_fouls": 30,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 35
+    },
+    "2022/bonus=True/window=120/lead=3:3": {
+      "possessions": 293,
+      "games": 190,
+      "personal_foul_possessions": 22,
+      "personal_foul_pct": 7.508532423208192,
+      "wilson95_pct": [
+        5.010488254217556,
+        11.10639024259691
+      ],
+      "personal_fouls": 22,
+      "take_fouls": 20,
+      "nonshooting_ft_fouls": 46
+    },
+    "2022/bonus=True/window=120/lead=-6:-1": {
+      "possessions": 1387,
+      "games": 477,
+      "personal_foul_possessions": 161,
+      "personal_foul_pct": 11.607786589762076,
+      "wilson95_pct": [
+        10.02704692142272,
+        13.400610117308362
+      ],
+      "personal_fouls": 162,
+      "take_fouls": 299,
+      "nonshooting_ft_fouls": 478
+    },
+    "2022/bonus=True/window=60/lead=0:2": {
+      "possessions": 461,
+      "games": 215,
+      "personal_foul_possessions": 23,
+      "personal_foul_pct": 4.989154013015185,
+      "wilson95_pct": [
+        3.347222405364464,
+        7.375053742037145
+      ],
+      "personal_fouls": 23,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 27
+    },
+    "2022/bonus=True/window=60/lead=0:0": {
+      "possessions": 155,
+      "games": 103,
+      "personal_foul_possessions": 3,
+      "personal_foul_pct": 1.935483870967742,
+      "wilson95_pct": [
+        0.6603757117780048,
+        5.535482300228925
+      ],
+      "personal_fouls": 3,
+      "take_fouls": 0,
+      "nonshooting_ft_fouls": 4
+    },
+    "2022/bonus=True/window=60/lead=1:2": {
+      "possessions": 306,
+      "games": 182,
+      "personal_foul_possessions": 20,
+      "personal_foul_pct": 6.535947712418301,
+      "wilson95_pct": [
+        4.270485127563921,
+        9.879196516217934
+      ],
+      "personal_fouls": 20,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 23
+    },
+    "2022/bonus=True/window=60/lead=3:3": {
+      "possessions": 205,
+      "games": 151,
+      "personal_foul_possessions": 16,
+      "personal_foul_pct": 7.804878048780488,
+      "wilson95_pct": [
+        4.860992484636982,
+        12.301105488180696
+      ],
+      "personal_fouls": 16,
+      "take_fouls": 20,
+      "nonshooting_ft_fouls": 40
+    },
+    "2022/bonus=True/window=60/lead=-6:-1": {
+      "possessions": 886,
+      "games": 432,
+      "personal_foul_possessions": 130,
+      "personal_foul_pct": 14.672686230248308,
+      "wilson95_pct": [
+        12.495333718886512,
+        17.155066981642662
+      ],
+      "personal_fouls": 131,
+      "take_fouls": 298,
+      "nonshooting_ft_fouls": 438
+    },
+    "2022/bonus=True/window=30/lead=0:2": {
+      "possessions": 268,
+      "games": 167,
+      "personal_foul_possessions": 15,
+      "personal_foul_pct": 5.597014925373134,
+      "wilson95_pct": [
+        3.420828630138504,
+        9.028185795909607
+      ],
+      "personal_fouls": 15,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 18
+    },
+    "2022/bonus=True/window=30/lead=0:0": {
+      "possessions": 92,
+      "games": 78,
+      "personal_foul_possessions": 3,
+      "personal_foul_pct": 3.260869565217391,
+      "wilson95_pct": [
+        1.1150975342623228,
+        9.153512338694721
+      ],
+      "personal_fouls": 3,
+      "take_fouls": 0,
+      "nonshooting_ft_fouls": 3
+    },
+    "2022/bonus=True/window=30/lead=1:2": {
+      "possessions": 176,
+      "games": 131,
+      "personal_foul_possessions": 12,
+      "personal_foul_pct": 6.8181818181818175,
+      "wilson95_pct": [
+        3.9429395563328904,
+        11.538239436736566
+      ],
+      "personal_fouls": 12,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 15
+    },
+    "2022/bonus=True/window=30/lead=3:3": {
+      "possessions": 143,
+      "games": 116,
+      "personal_foul_possessions": 9,
+      "personal_foul_pct": 6.293706293706294,
+      "wilson95_pct": [
+        3.346110825773375,
+        11.528148239777533
+      ],
+      "personal_fouls": 9,
+      "take_fouls": 20,
+      "nonshooting_ft_fouls": 31
+    },
+    "2022/bonus=True/window=30/lead=-6:-1": {
+      "possessions": 523,
+      "games": 346,
+      "personal_foul_possessions": 87,
+      "personal_foul_pct": 16.634799235181642,
+      "wilson95_pct": [
+        13.688869269844595,
+        20.06731095586271
+      ],
+      "personal_fouls": 88,
+      "take_fouls": 255,
+      "nonshooting_ft_fouls": 348
+    },
+    "2022/bonus=False/window=ordinary/lead=0:2": {
+      "possessions": 28371,
+      "games": 1230,
+      "personal_foul_possessions": 1257,
+      "personal_foul_pct": 4.430580522364386,
+      "wilson95_pct": [
+        4.1972402639282445,
+        4.676259843998349
+      ],
+      "personal_fouls": 1313,
+      "take_fouls": 14,
+      "nonshooting_ft_fouls": 35
+    },
+    "2022/bonus=False/window=ordinary/lead=0:0": {
+      "possessions": 11106,
+      "games": 1230,
+      "personal_foul_possessions": 430,
+      "personal_foul_pct": 3.8717810192688633,
+      "wilson95_pct": [
+        3.5286343568154606,
+        4.246828436461447
+      ],
+      "personal_fouls": 447,
+      "take_fouls": 6,
+      "nonshooting_ft_fouls": 14
+    },
+    "2022/bonus=False/window=ordinary/lead=1:2": {
+      "possessions": 17265,
+      "games": 1210,
+      "personal_foul_possessions": 827,
+      "personal_foul_pct": 4.790037648421663,
+      "wilson95_pct": [
+        4.481417402610711,
+        5.118772571915432
+      ],
+      "personal_fouls": 866,
+      "take_fouls": 8,
+      "nonshooting_ft_fouls": 21
+    },
+    "2022/bonus=False/window=ordinary/lead=3:3": {
+      "possessions": 8094,
+      "games": 1147,
+      "personal_foul_possessions": 383,
+      "personal_foul_pct": 4.731900172967631,
+      "wilson95_pct": [
+        4.290428839715968,
+        5.216321699835213
+      ],
+      "personal_fouls": 395,
+      "take_fouls": 3,
+      "nonshooting_ft_fouls": 9
+    },
+    "2022/bonus=False/window=ordinary/lead=-6:-1": {
+      "possessions": 40857,
+      "games": 1230,
+      "personal_foul_possessions": 1989,
+      "personal_foul_pct": 4.868198839856083,
+      "wilson95_pct": [
+        4.663733929693826,
+        5.081150032754954
+      ],
+      "personal_fouls": 2063,
+      "take_fouls": 20,
+      "nonshooting_ft_fouls": 63
+    },
+    "2022/bonus=False/window=120/lead=0:2": {
+      "possessions": 361,
+      "games": 147,
+      "personal_foul_possessions": 21,
+      "personal_foul_pct": 5.8171745152354575,
+      "wilson95_pct": [
+        3.835907526272048,
+        8.728887716375722
+      ],
+      "personal_fouls": 22,
+      "take_fouls": 8,
+      "nonshooting_ft_fouls": 3
+    },
+    "2022/bonus=False/window=120/lead=0:0": {
+      "possessions": 138,
+      "games": 77,
+      "personal_foul_possessions": 7,
+      "personal_foul_pct": 5.072463768115942,
+      "wilson95_pct": [
+        2.4785107968775346,
+        10.100027516283062
+      ],
+      "personal_fouls": 8,
+      "take_fouls": 5,
+      "nonshooting_ft_fouls": 2
+    },
+    "2022/bonus=False/window=120/lead=1:2": {
+      "possessions": 223,
+      "games": 109,
+      "personal_foul_possessions": 14,
+      "personal_foul_pct": 6.278026905829597,
+      "wilson95_pct": [
+        3.776133896774705,
+        10.260797600798933
+      ],
+      "personal_fouls": 14,
+      "take_fouls": 3,
+      "nonshooting_ft_fouls": 1
+    },
+    "2022/bonus=False/window=120/lead=3:3": {
+      "possessions": 152,
+      "games": 90,
+      "personal_foul_possessions": 6,
+      "personal_foul_pct": 3.9473684210526314,
+      "wilson95_pct": [
+        1.8214356323955294,
+        8.343757743442499
+      ],
+      "personal_fouls": 9,
+      "take_fouls": 3,
+      "nonshooting_ft_fouls": 5
+    },
+    "2022/bonus=False/window=120/lead=-6:-1": {
+      "possessions": 677,
+      "games": 274,
+      "personal_foul_possessions": 80,
+      "personal_foul_pct": 11.816838995568684,
+      "wilson95_pct": [
+        9.597928968432054,
+        14.46664052908396
+      ],
+      "personal_fouls": 95,
+      "take_fouls": 116,
+      "nonshooting_ft_fouls": 79
+    },
+    "2022/bonus=False/window=60/lead=0:2": {
+      "possessions": 165,
+      "games": 95,
+      "personal_foul_possessions": 14,
+      "personal_foul_pct": 8.484848484848486,
+      "wilson95_pct": [
+        5.121353901536127,
+        13.737505526472136
+      ],
+      "personal_fouls": 15,
+      "take_fouls": 8,
+      "nonshooting_ft_fouls": 2
+    },
+    "2022/bonus=False/window=60/lead=0:0": {
+      "possessions": 63,
+      "games": 48,
+      "personal_foul_possessions": 5,
+      "personal_foul_pct": 7.936507936507936,
+      "wilson95_pct": [
+        3.437534033651937,
+        17.270528011541472
+      ],
+      "personal_fouls": 6,
+      "take_fouls": 5,
+      "nonshooting_ft_fouls": 2
+    },
+    "2022/bonus=False/window=60/lead=1:2": {
+      "possessions": 102,
+      "games": 67,
+      "personal_foul_possessions": 9,
+      "personal_foul_pct": 8.823529411764707,
+      "wilson95_pct": [
+        4.711502569146458,
+        15.924617822079679
+      ],
+      "personal_fouls": 9,
+      "take_fouls": 3,
+      "nonshooting_ft_fouls": 0
+    },
+    "2022/bonus=False/window=60/lead=3:3": {
+      "possessions": 62,
+      "games": 50,
+      "personal_foul_possessions": 5,
+      "personal_foul_pct": 8.064516129032258,
+      "wilson95_pct": [
+        3.4937831855833754,
+        17.528792207481192
+      ],
+      "personal_fouls": 7,
+      "take_fouls": 3,
+      "nonshooting_ft_fouls": 3
+    },
+    "2022/bonus=False/window=60/lead=-6:-1": {
+      "possessions": 265,
+      "games": 164,
+      "personal_foul_possessions": 58,
+      "personal_foul_pct": 21.88679245283019,
+      "wilson95_pct": [
+        17.329551962479506,
+        27.24747778291704
+      ],
+      "personal_fouls": 73,
+      "take_fouls": 114,
+      "nonshooting_ft_fouls": 79
+    },
+    "2022/bonus=False/window=30/lead=0:2": {
+      "possessions": 75,
+      "games": 60,
+      "personal_foul_possessions": 9,
+      "personal_foul_pct": 12.0,
+      "wilson95_pct": [
+        6.443298969072164,
+        21.25984251968504
+      ],
+      "personal_fouls": 10,
+      "take_fouls": 6,
+      "nonshooting_ft_fouls": 2
+    },
+    "2022/bonus=False/window=30/lead=0:0": {
+      "possessions": 32,
+      "games": 28,
+      "personal_foul_possessions": 5,
+      "personal_foul_pct": 15.625,
+      "wilson95_pct": [
+        6.8643191066272164,
+        31.75449255356653
+      ],
+      "personal_fouls": 6,
+      "take_fouls": 4,
+      "nonshooting_ft_fouls": 2
+    },
+    "2022/bonus=False/window=30/lead=1:2": {
+      "possessions": 43,
+      "games": 37,
+      "personal_foul_possessions": 4,
+      "personal_foul_pct": 9.30232558139535,
+      "wilson95_pct": [
+        3.6771045103346514,
+        21.60298839853268
+      ],
+      "personal_fouls": 4,
+      "take_fouls": 2,
+      "nonshooting_ft_fouls": 0
+    },
+    "2022/bonus=False/window=30/lead=3:3": {
+      "possessions": 28,
+      "games": 26,
+      "personal_foul_possessions": 0,
+      "personal_foul_pct": 0.0,
+      "wilson95_pct": [
+        0.0,
+        12.064720365810762
+      ],
+      "personal_fouls": 0,
+      "take_fouls": 3,
+      "nonshooting_ft_fouls": 0
+    },
+    "2022/bonus=False/window=30/lead=-6:-1": {
+      "possessions": 101,
+      "games": 90,
+      "personal_foul_possessions": 34,
+      "personal_foul_pct": 33.663366336633665,
+      "wilson95_pct": [
+        25.19643423829841,
+        43.32751045541095
+      ],
+      "personal_fouls": 44,
+      "take_fouls": 83,
+      "nonshooting_ft_fouls": 58
+    },
+    "2023/bonus=all/window=ordinary/lead=0:2": {
+      "possessions": 31933,
+      "games": 1228,
+      "personal_foul_possessions": 1618,
+      "personal_foul_pct": 5.066858735477406,
+      "wilson95_pct": [
+        4.831662298205586,
+        5.31286495523453
+      ],
+      "personal_fouls": 1665,
+      "take_fouls": 18,
+      "nonshooting_ft_fouls": 338
+    },
+    "2023/bonus=all/window=ordinary/lead=0:0": {
+      "possessions": 12241,
+      "games": 1228,
+      "personal_foul_possessions": 583,
+      "personal_foul_pct": 4.762682787353975,
+      "wilson95_pct": [
+        4.39937598791003,
+        5.15437438481835
+      ],
+      "personal_fouls": 595,
+      "take_fouls": 4,
+      "nonshooting_ft_fouls": 112
+    },
+    "2023/bonus=all/window=ordinary/lead=1:2": {
+      "possessions": 19692,
+      "games": 1189,
+      "personal_foul_possessions": 1035,
+      "personal_foul_pct": 5.255941499085924,
+      "wilson95_pct": [
+        4.952894393851744,
+        5.5764429257578945
+      ],
+      "personal_fouls": 1070,
+      "take_fouls": 14,
+      "nonshooting_ft_fouls": 226
+    },
+    "2023/bonus=all/window=ordinary/lead=3:3": {
+      "possessions": 9174,
+      "games": 1149,
+      "personal_foul_possessions": 454,
+      "personal_foul_pct": 4.948768258120776,
+      "wilson95_pct": [
+        4.523500677129208,
+        5.4117503300357015
+      ],
+      "personal_fouls": 472,
+      "take_fouls": 5,
+      "nonshooting_ft_fouls": 92
+    },
+    "2023/bonus=all/window=ordinary/lead=-6:-1": {
+      "possessions": 47752,
+      "games": 1228,
+      "personal_foul_possessions": 2460,
+      "personal_foul_pct": 5.151616686212096,
+      "wilson95_pct": [
+        4.956934111968653,
+        5.353514693942455
+      ],
+      "personal_fouls": 2547,
+      "take_fouls": 34,
+      "nonshooting_ft_fouls": 576
+    },
+    "2023/bonus=all/window=120/lead=0:2": {
+      "possessions": 931,
+      "games": 253,
+      "personal_foul_possessions": 58,
+      "personal_foul_pct": 6.229860365198711,
+      "wilson95_pct": [
+        4.849940215788817,
+        7.969514973197208
+      ],
+      "personal_fouls": 58,
+      "take_fouls": 5,
+      "nonshooting_ft_fouls": 38
+    },
+    "2023/bonus=all/window=120/lead=0:0": {
+      "possessions": 322,
+      "games": 135,
+      "personal_foul_possessions": 19,
+      "personal_foul_pct": 5.900621118012422,
+      "wilson95_pct": [
+        3.8096942269119762,
+        9.03139174860496
+      ],
+      "personal_fouls": 19,
+      "take_fouls": 3,
+      "nonshooting_ft_fouls": 15
+    },
+    "2023/bonus=all/window=120/lead=1:2": {
+      "possessions": 609,
+      "games": 237,
+      "personal_foul_possessions": 39,
+      "personal_foul_pct": 6.403940886699508,
+      "wilson95_pct": [
+        4.719693454490277,
+        8.63475245779766
+      ],
+      "personal_fouls": 39,
+      "take_fouls": 2,
+      "nonshooting_ft_fouls": 23
+    },
+    "2023/bonus=all/window=120/lead=3:3": {
+      "possessions": 379,
+      "games": 222,
+      "personal_foul_possessions": 37,
+      "personal_foul_pct": 9.762532981530343,
+      "wilson95_pct": [
+        7.165822983771869,
+        13.166763652581132
+      ],
+      "personal_fouls": 38,
+      "take_fouls": 18,
+      "nonshooting_ft_fouls": 43
+    },
+    "2023/bonus=all/window=120/lead=-6:-1": {
+      "possessions": 1948,
+      "games": 533,
+      "personal_foul_possessions": 307,
+      "personal_foul_pct": 15.759753593429156,
+      "wilson95_pct": [
+        14.209268343935113,
+        17.445021635333692
+      ],
+      "personal_fouls": 322,
+      "take_fouls": 425,
+      "nonshooting_ft_fouls": 662
+    },
+    "2023/bonus=all/window=60/lead=0:2": {
+      "possessions": 510,
+      "games": 203,
+      "personal_foul_possessions": 30,
+      "personal_foul_pct": 5.88235294117647,
+      "wilson95_pct": [
+        4.151147777793141,
+        8.27322580348171
+      ],
+      "personal_fouls": 30,
+      "take_fouls": 5,
+      "nonshooting_ft_fouls": 20
+    },
+    "2023/bonus=all/window=60/lead=0:0": {
+      "possessions": 174,
+      "games": 93,
+      "personal_foul_possessions": 13,
+      "personal_foul_pct": 7.471264367816093,
+      "wilson95_pct": [
+        4.41790508301931,
+        12.361970941487893
+      ],
+      "personal_fouls": 13,
+      "take_fouls": 3,
+      "nonshooting_ft_fouls": 9
+    },
+    "2023/bonus=all/window=60/lead=1:2": {
+      "possessions": 336,
+      "games": 184,
+      "personal_foul_possessions": 17,
+      "personal_foul_pct": 5.059523809523809,
+      "wilson95_pct": [
+        3.1825746911050237,
+        7.952495294441183
+      ],
+      "personal_fouls": 17,
+      "take_fouls": 2,
+      "nonshooting_ft_fouls": 11
+    },
+    "2023/bonus=all/window=60/lead=3:3": {
+      "possessions": 212,
+      "games": 160,
+      "personal_foul_possessions": 24,
+      "personal_foul_pct": 11.320754716981133,
+      "wilson95_pct": [
+        7.726437297059427,
+        16.29191690342834
+      ],
+      "personal_fouls": 24,
+      "take_fouls": 18,
+      "nonshooting_ft_fouls": 35
+    },
+    "2023/bonus=all/window=60/lead=-6:-1": {
+      "possessions": 1120,
+      "games": 462,
+      "personal_foul_possessions": 232,
+      "personal_foul_pct": 20.714285714285715,
+      "wilson95_pct": [
+        18.442891697297416,
+        23.185892999763098
+      ],
+      "personal_fouls": 246,
+      "take_fouls": 423,
+      "nonshooting_ft_fouls": 610
+    },
+    "2023/bonus=all/window=30/lead=0:2": {
+      "possessions": 282,
+      "games": 170,
+      "personal_foul_possessions": 19,
+      "personal_foul_pct": 6.73758865248227,
+      "wilson95_pct": [
+        4.35540166753697,
+        10.282635623046346
+      ],
+      "personal_fouls": 19,
+      "take_fouls": 5,
+      "nonshooting_ft_fouls": 10
+    },
+    "2023/bonus=all/window=30/lead=0:0": {
+      "possessions": 92,
+      "games": 72,
+      "personal_foul_possessions": 9,
+      "personal_foul_pct": 9.782608695652174,
+      "wilson95_pct": [
+        5.232316443197395,
+        17.556952517254015
+      ],
+      "personal_fouls": 9,
+      "take_fouls": 3,
+      "nonshooting_ft_fouls": 4
+    },
+    "2023/bonus=all/window=30/lead=1:2": {
+      "possessions": 190,
+      "games": 141,
+      "personal_foul_possessions": 10,
+      "personal_foul_pct": 5.263157894736842,
+      "wilson95_pct": [
+        2.883612554849993,
+        9.415914481658165
+      ],
+      "personal_fouls": 10,
+      "take_fouls": 2,
+      "nonshooting_ft_fouls": 6
+    },
+    "2023/bonus=all/window=30/lead=3:3": {
+      "possessions": 146,
+      "games": 112,
+      "personal_foul_possessions": 15,
+      "personal_foul_pct": 10.273972602739725,
+      "wilson95_pct": [
+        6.325439180443915,
+        16.259477157876017
+      ],
+      "personal_fouls": 15,
+      "take_fouls": 18,
+      "nonshooting_ft_fouls": 30
+    },
+    "2023/bonus=all/window=30/lead=-6:-1": {
+      "possessions": 655,
+      "games": 381,
+      "personal_foul_possessions": 163,
+      "personal_foul_pct": 24.885496183206108,
+      "wilson95_pct": [
+        21.72726991027097,
+        28.33659976644646
+      ],
+      "personal_fouls": 174,
+      "take_fouls": 372,
+      "nonshooting_ft_fouls": 500
+    },
+    "2023/bonus=True/window=ordinary/lead=0:2": {
+      "possessions": 4145,
+      "games": 723,
+      "personal_foul_possessions": 228,
+      "personal_foul_pct": 5.500603136308806,
+      "wilson95_pct": [
+        4.846819732848157,
+        6.236794546376193
+      ],
+      "personal_fouls": 228,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 260
+    },
+    "2023/bonus=True/window=ordinary/lead=0:0": {
+      "possessions": 1355,
+      "games": 487,
+      "personal_foul_possessions": 77,
+      "personal_foul_pct": 5.682656826568266,
+      "wilson95_pct": [
+        4.570629493445368,
+        7.045264515098379
+      ],
+      "personal_fouls": 77,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 89
+    },
+    "2023/bonus=True/window=ordinary/lead=1:2": {
+      "possessions": 2790,
+      "games": 681,
+      "personal_foul_possessions": 151,
+      "personal_foul_pct": 5.412186379928316,
+      "wilson95_pct": [
+        4.63226404200825,
+        6.314727369387441
+      ],
+      "personal_fouls": 151,
+      "take_fouls": 0,
+      "nonshooting_ft_fouls": 171
+    },
+    "2023/bonus=True/window=ordinary/lead=3:3": {
+      "possessions": 1325,
+      "games": 554,
+      "personal_foul_possessions": 61,
+      "personal_foul_pct": 4.60377358490566,
+      "wilson95_pct": [
+        3.600606826774143,
+        5.869415785401756
+      ],
+      "personal_fouls": 61,
+      "take_fouls": 0,
+      "nonshooting_ft_fouls": 72
+    },
+    "2023/bonus=True/window=ordinary/lead=-6:-1": {
+      "possessions": 7970,
+      "games": 947,
+      "personal_foul_possessions": 380,
+      "personal_foul_pct": 4.767879548306149,
+      "wilson95_pct": [
+        4.321453901431418,
+        5.25788863278697
+      ],
+      "personal_fouls": 382,
+      "take_fouls": 8,
+      "nonshooting_ft_fouls": 440
+    },
+    "2023/bonus=True/window=120/lead=0:2": {
+      "possessions": 574,
+      "games": 210,
+      "personal_foul_possessions": 22,
+      "personal_foul_pct": 3.8327526132404177,
+      "wilson95_pct": [
+        2.5444916768092867,
+        5.734870695162549
+      ],
+      "personal_fouls": 22,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 27
+    },
+    "2023/bonus=True/window=120/lead=0:0": {
+      "possessions": 196,
+      "games": 108,
+      "personal_foul_possessions": 8,
+      "personal_foul_pct": 4.081632653061225,
+      "wilson95_pct": [
+        2.0824715428567826,
+        7.846191958636398
+      ],
+      "personal_fouls": 8,
+      "take_fouls": 0,
+      "nonshooting_ft_fouls": 11
+    },
+    "2023/bonus=True/window=120/lead=1:2": {
+      "possessions": 378,
+      "games": 181,
+      "personal_foul_possessions": 14,
+      "personal_foul_pct": 3.7037037037037033,
+      "wilson95_pct": [
+        2.218803501670112,
+        6.1201517090769615
+      ],
+      "personal_fouls": 14,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 16
+    },
+    "2023/bonus=True/window=120/lead=3:3": {
+      "possessions": 239,
+      "games": 154,
+      "personal_foul_possessions": 18,
+      "personal_foul_pct": 7.531380753138076,
+      "wilson95_pct": [
+        4.816731882457605,
+        11.589682833966599
+      ],
+      "personal_fouls": 18,
+      "take_fouls": 13,
+      "nonshooting_ft_fouls": 36
+    },
+    "2023/bonus=True/window=120/lead=-6:-1": {
+      "possessions": 1261,
+      "games": 431,
+      "personal_foul_possessions": 185,
+      "personal_foul_pct": 14.670896114195084,
+      "wilson95_pct": [
+        12.825336603727989,
+        16.731060023327927
+      ],
+      "personal_fouls": 187,
+      "take_fouls": 267,
+      "nonshooting_ft_fouls": 467
+    },
+    "2023/bonus=True/window=60/lead=0:2": {
+      "possessions": 359,
+      "games": 176,
+      "personal_foul_possessions": 12,
+      "personal_foul_pct": 3.3426183844011144,
+      "wilson95_pct": [
+        1.922254724853117,
+        5.750955844166533
+      ],
+      "personal_fouls": 12,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 14
+    },
+    "2023/bonus=True/window=60/lead=0:0": {
+      "possessions": 121,
+      "games": 75,
+      "personal_foul_possessions": 6,
+      "personal_foul_pct": 4.958677685950414,
+      "wilson95_pct": [
+        2.2921361584731135,
+        10.397223798464317
+      ],
+      "personal_fouls": 6,
+      "take_fouls": 0,
+      "nonshooting_ft_fouls": 7
+    },
+    "2023/bonus=True/window=60/lead=1:2": {
+      "possessions": 238,
+      "games": 147,
+      "personal_foul_possessions": 6,
+      "personal_foul_pct": 2.5210084033613445,
+      "wilson95_pct": [
+        1.1603924749681471,
+        5.390010764176813
+      ],
+      "personal_fouls": 6,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 7
+    },
+    "2023/bonus=True/window=60/lead=3:3": {
+      "possessions": 155,
+      "games": 121,
+      "personal_foul_possessions": 14,
+      "personal_foul_pct": 9.032258064516128,
+      "wilson95_pct": [
+        5.456531372591347,
+        14.589602637642745
+      ],
+      "personal_fouls": 14,
+      "take_fouls": 13,
+      "nonshooting_ft_fouls": 31
+    },
+    "2023/bonus=True/window=60/lead=-6:-1": {
+      "possessions": 813,
+      "games": 383,
+      "personal_foul_possessions": 153,
+      "personal_foul_pct": 18.81918819188192,
+      "wilson95_pct": [
+        16.281332491656254,
+        21.65033014648559
+      ],
+      "personal_fouls": 155,
+      "take_fouls": 266,
+      "nonshooting_ft_fouls": 427
+    },
+    "2023/bonus=True/window=30/lead=0:2": {
+      "possessions": 212,
+      "games": 144,
+      "personal_foul_possessions": 6,
+      "personal_foul_pct": 2.8301886792452833,
+      "wilson95_pct": [
+        1.3034018623721462,
+        6.036054479686105
+      ],
+      "personal_fouls": 6,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 8
+    },
+    "2023/bonus=True/window=30/lead=0:0": {
+      "possessions": 67,
+      "games": 58,
+      "personal_foul_possessions": 2,
+      "personal_foul_pct": 2.9850746268656714,
+      "wilson95_pct": [
+        0.8224522347453904,
+        10.246750041883029
+      ],
+      "personal_fouls": 2,
+      "take_fouls": 0,
+      "nonshooting_ft_fouls": 3
+    },
+    "2023/bonus=True/window=30/lead=1:2": {
+      "possessions": 145,
+      "games": 111,
+      "personal_foul_possessions": 4,
+      "personal_foul_pct": 2.7586206896551726,
+      "wilson95_pct": [
+        1.0778728538865683,
+        6.877967448824501
+      ],
+      "personal_fouls": 4,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 5
+    },
+    "2023/bonus=True/window=30/lead=3:3": {
+      "possessions": 112,
+      "games": 87,
+      "personal_foul_possessions": 11,
+      "personal_foul_pct": 9.821428571428571,
+      "wilson95_pct": [
+        5.572918231381243,
+        16.734784700898697
+      ],
+      "personal_fouls": 11,
+      "take_fouls": 13,
+      "nonshooting_ft_fouls": 27
+    },
+    "2023/bonus=True/window=30/lead=-6:-1": {
+      "possessions": 474,
+      "games": 301,
+      "personal_foul_possessions": 104,
+      "personal_foul_pct": 21.940928270042196,
+      "wilson95_pct": [
+        18.44898016624854,
+        25.88403730230171
+      ],
+      "personal_fouls": 106,
+      "take_fouls": 232,
+      "nonshooting_ft_fouls": 341
+    },
+    "2023/bonus=False/window=ordinary/lead=0:2": {
+      "possessions": 27530,
+      "games": 1228,
+      "personal_foul_possessions": 1301,
+      "personal_foul_pct": 4.725753723211042,
+      "wilson95_pct": [
+        4.481353473060419,
+        4.9827875569366435
+      ],
+      "personal_fouls": 1347,
+      "take_fouls": 16,
+      "nonshooting_ft_fouls": 34
+    },
+    "2023/bonus=False/window=ordinary/lead=0:0": {
+      "possessions": 10789,
+      "games": 1228,
+      "personal_foul_possessions": 470,
+      "personal_foul_pct": 4.356288812679581,
+      "wilson95_pct": [
+        3.9870916157890157,
+        4.757978820526847
+      ],
+      "personal_fouls": 482,
+      "take_fouls": 3,
+      "nonshooting_ft_fouls": 8
+    },
+    "2023/bonus=False/window=ordinary/lead=1:2": {
+      "possessions": 16741,
+      "games": 1186,
+      "personal_foul_possessions": 831,
+      "personal_foul_pct": 4.963861179141031,
+      "wilson95_pct": [
+        4.645050960006318,
+        5.30333577182159
+      ],
+      "personal_fouls": 865,
+      "take_fouls": 13,
+      "nonshooting_ft_fouls": 26
+    },
+    "2023/bonus=False/window=ordinary/lead=3:3": {
+      "possessions": 7770,
+      "games": 1143,
+      "personal_foul_possessions": 367,
+      "personal_foul_pct": 4.723294723294724,
+      "wilson95_pct": [
+        4.273560001140989,
+        5.217778232455127
+      ],
+      "personal_fouls": 383,
+      "take_fouls": 5,
+      "nonshooting_ft_fouls": 10
+    },
+    "2023/bonus=False/window=ordinary/lead=-6:-1": {
+      "possessions": 39385,
+      "games": 1228,
+      "personal_foul_possessions": 1959,
+      "personal_foul_pct": 4.973974863526723,
+      "wilson95_pct": [
+        4.7636161651079965,
+        5.193116352763258
+      ],
+      "personal_fouls": 2038,
+      "take_fouls": 23,
+      "nonshooting_ft_fouls": 56
+    },
+    "2023/bonus=False/window=120/lead=0:2": {
+      "possessions": 334,
+      "games": 127,
+      "personal_foul_possessions": 30,
+      "personal_foul_pct": 8.982035928143713,
+      "wilson95_pct": [
+        6.3640316269946275,
+        12.532871537091738
+      ],
+      "personal_fouls": 30,
+      "take_fouls": 3,
+      "nonshooting_ft_fouls": 1
+    },
+    "2023/bonus=False/window=120/lead=0:0": {
+      "possessions": 118,
+      "games": 66,
+      "personal_foul_possessions": 11,
+      "personal_foul_pct": 9.322033898305085,
+      "wilson95_pct": [
+        5.2851055573988575,
+        15.92407094717757
+      ],
+      "personal_fouls": 11,
+      "take_fouls": 2,
+      "nonshooting_ft_fouls": 1
+    },
+    "2023/bonus=False/window=120/lead=1:2": {
+      "possessions": 216,
+      "games": 112,
+      "personal_foul_possessions": 19,
+      "personal_foul_pct": 8.796296296296296,
+      "wilson95_pct": [
+        5.703520495946203,
+        13.329092076014703
+      ],
+      "personal_fouls": 19,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 0
+    },
+    "2023/bonus=False/window=120/lead=3:3": {
+      "possessions": 130,
+      "games": 90,
+      "personal_foul_possessions": 16,
+      "personal_foul_pct": 12.307692307692308,
+      "wilson95_pct": [
+        7.719563620964337,
+        19.05955438121137
+      ],
+      "personal_fouls": 16,
+      "take_fouls": 2,
+      "nonshooting_ft_fouls": 0
+    },
+    "2023/bonus=False/window=120/lead=-6:-1": {
+      "possessions": 541,
+      "games": 226,
+      "personal_foul_possessions": 68,
+      "personal_foul_pct": 12.56931608133087,
+      "wilson95_pct": [
+        10.037139190811605,
+        15.62932974254444
+      ],
+      "personal_fouls": 77,
+      "take_fouls": 80,
+      "nonshooting_ft_fouls": 59
+    },
+    "2023/bonus=False/window=60/lead=0:2": {
+      "possessions": 138,
+      "games": 84,
+      "personal_foul_possessions": 16,
+      "personal_foul_pct": 11.594202898550725,
+      "wilson95_pct": [
+        7.263840593820414,
+        18.00490989968784
+      ],
+      "personal_fouls": 16,
+      "take_fouls": 3,
+      "nonshooting_ft_fouls": 0
+    },
+    "2023/bonus=False/window=60/lead=0:0": {
+      "possessions": 48,
+      "games": 40,
+      "personal_foul_possessions": 7,
+      "personal_foul_pct": 14.583333333333334,
+      "wilson95_pct": [
+        7.248157413793963,
+        27.167447042858605
+      ],
+      "personal_fouls": 7,
+      "take_fouls": 2,
+      "nonshooting_ft_fouls": 0
+    },
+    "2023/bonus=False/window=60/lead=1:2": {
+      "possessions": 90,
+      "games": 65,
+      "personal_foul_possessions": 9,
+      "personal_foul_pct": 10.0,
+      "wilson95_pct": [
+        5.350614574335834,
+        17.92435089939863
+      ],
+      "personal_fouls": 9,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 0
+    },
+    "2023/bonus=False/window=60/lead=3:3": {
+      "possessions": 50,
+      "games": 44,
+      "personal_foul_possessions": 9,
+      "personal_foul_pct": 18.0,
+      "wilson95_pct": [
+        9.77008273245379,
+        30.79631945470261
+      ],
+      "personal_fouls": 9,
+      "take_fouls": 2,
+      "nonshooting_ft_fouls": 0
+    },
+    "2023/bonus=False/window=60/lead=-6:-1": {
+      "possessions": 179,
+      "games": 115,
+      "personal_foul_possessions": 32,
+      "personal_foul_pct": 17.877094972067038,
+      "wilson95_pct": [
+        12.957241625579968,
+        24.14678721687164
+      ],
+      "personal_fouls": 40,
+      "take_fouls": 79,
+      "nonshooting_ft_fouls": 57
+    },
+    "2023/bonus=False/window=30/lead=0:2": {
+      "possessions": 64,
+      "games": 55,
+      "personal_foul_possessions": 12,
+      "personal_foul_pct": 18.75,
+      "wilson95_pct": [
+        11.064534880922098,
+        29.974591554775177
+      ],
+      "personal_fouls": 12,
+      "take_fouls": 3,
+      "nonshooting_ft_fouls": 0
+    },
+    "2023/bonus=False/window=30/lead=0:0": {
+      "possessions": 23,
+      "games": 23,
+      "personal_foul_possessions": 7,
+      "personal_foul_pct": 30.434782608695656,
+      "wilson95_pct": [
+        15.603828020972454,
+        50.866129060572604
+      ],
+      "personal_fouls": 7,
+      "take_fouls": 2,
+      "nonshooting_ft_fouls": 0
+    },
+    "2023/bonus=False/window=30/lead=1:2": {
+      "possessions": 41,
+      "games": 37,
+      "personal_foul_possessions": 5,
+      "personal_foul_pct": 12.195121951219512,
+      "wilson95_pct": [
+        5.323257997340825,
+        25.544507648844867
+      ],
+      "personal_fouls": 5,
+      "take_fouls": 1,
+      "nonshooting_ft_fouls": 0
+    },
+    "2023/bonus=False/window=30/lead=3:3": {
+      "possessions": 29,
+      "games": 27,
+      "personal_foul_possessions": 4,
+      "personal_foul_pct": 13.793103448275861,
+      "wilson95_pct": [
+        5.497350852047822,
+        30.559357712699324
+      ],
+      "personal_fouls": 4,
+      "take_fouls": 2,
+      "nonshooting_ft_fouls": 0
+    },
+    "2023/bonus=False/window=30/lead=-6:-1": {
+      "possessions": 72,
+      "games": 66,
+      "personal_foul_possessions": 22,
+      "personal_foul_pct": 30.555555555555557,
+      "wilson95_pct": [
+        21.126482045921048,
+        41.95446561341104
+      ],
+      "personal_fouls": 28,
+      "take_fouls": 66,
+      "nonshooting_ft_fouls": 47
+    }
+  }
+}

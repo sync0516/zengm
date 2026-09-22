@@ -1,0 +1,71 @@
+[
+  {
+    "multiplier": 1,
+    "counts": {
+      "2021": {
+        "n": 7360,
+        "fouls": 617,
+        "shootingFouls": 672,
+        "checks": 7769
+      },
+      "2022": {
+        "n": 9220,
+        "fouls": 788,
+        "shootingFouls": 809,
+        "checks": 9592
+      },
+      "2023": {
+        "n": 7180,
+        "fouls": 618,
+        "shootingFouls": 681,
+        "checks": 7504
+      }
+    }
+  },
+  {
+    "multiplier": 0.75,
+    "counts": {
+      "2021": {
+        "n": 7360,
+        "fouls": 446,
+        "shootingFouls": 691,
+        "checks": 7778
+      },
+      "2022": {
+        "n": 9220,
+        "fouls": 639,
+        "shootingFouls": 828,
+        "checks": 9601
+      },
+      "2023": {
+        "n": 7180,
+        "fouls": 466,
+        "shootingFouls": 698,
+        "checks": 7531
+      }
+    }
+  },
+  {
+    "multiplier": 0.5,
+    "counts": {
+      "2021": {
+        "n": 7360,
+        "fouls": 322,
+        "shootingFouls": 699,
+        "checks": 7786
+      },
+      "2022": {
+        "n": 9220,
+        "fouls": 446,
+        "shootingFouls": 844,
+        "checks": 9614
+      },
+      "2023": {
+        "n": 7180,
+        "fouls": 314,
+        "shootingFouls": 715,
+        "checks": 7536
+      }
+    }
+  }
+]

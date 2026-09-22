@@ -1,0 +1,27 @@
+{
+  "unchangedOutsideScope": 1349,
+  "runs": [
+    {
+      "mode": "baseline",
+      "games": 1500,
+      "points": 235215,
+      "pf": 59822,
+      "fta": 77168,
+      "fga": 258120,
+      "tp": 21976,
+      "ot": 49,
+      "eligibleChecks": 433
+    },
+    {
+      "mode": "candidate",
+      "games": 1500,
+      "points": 235111,
+      "pf": 59772,
+      "fta": 77098,
+      "fga": 258044,
+      "tp": 21978,
+      "ot": 44,
+      "eligibleChecks": 409
+    }
+  ]
+}
